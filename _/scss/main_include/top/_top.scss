@@ -1,0 +1,92 @@
+#top_wrap #topimg {
+    @include media($sp) {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    }
+
+}
+
+#top_wrap{
+    @include media($sp){
+        height: auto;
+    }
+}
+#topimgSp {
+     @include media($sp){
+        height: 176.8vw;
+        @include marginPercent(375 , 64 , auto , 0 , auto);
+        img{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+#contentsSp{
+    @include ontener_width(375 , 345);
+    @include paddingPercent(375 , 22 , 10 , 22 , 10);
+    @include marginPercent(375 , 20 , auto , 0 , auto);
+}
+.sentenceSp{
+   @include paddingPercent(345 , 22 , 10 , 22 , 10);
+    @include marginPercent(345 , 10 , auto , 0 , auto);
+    background: #FBE399;
+}
+.sentenceSpInner{
+    @include paddingPercent(325 , 22 , 10 , 10 , 10);
+    background: #FFF;
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+.titleSpprefSp{
+   @include marginPercent(325 , 20 , auto , 0 , auto);
+}
+
+.prefSp{
+    @include marginPercent(325 , 10 , auto , 0 , auto);
+}
+
+#main #contents {
+    @include media($sp) {
+        background: #FBE399;
+        padding: 22px 10px 22px 10px;
+        img {
+            width: 100%;
+        }
+    }
+
+}
+#main #contents .sentence {
+    @include media($sp) {
+        background: #FFF;
+        width: 93.85%;
+        margin: 0 auto;
+        padding: 10px;
+        img,p,h3 {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+#main #contents .sentence .topCampaign {
+    @include media($sp) {
+        overflow: hidden;
+        width: 93%;
+        margin-top: 21px;
+	margin-bottom:6px;
+        @include rsFontSize(14 , 14 , 14);
+        line-height: 1.05;
+        padding: 0 0 10px 20px;  
+        background-position: left 0px;
+        background-size: auto 70%;
+    }
+}

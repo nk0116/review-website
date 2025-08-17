@@ -1,0 +1,3 @@
+<Files ~ "\.(htpasswd|htaccess|txt|log|csv|xls|dat)$">
+	deny from all
+</Files>

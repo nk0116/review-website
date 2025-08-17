@@ -1,0 +1,169 @@
+.anxietyProgram{
+    @include marginPercent(680,27.47,auto,0,auto);
+    @include media($sp){
+         @include marginPercent(375,30,auto,0,auto);
+    }
+}
+.h2AnxietyProgram{
+    @include ontener_width(680,652.98);
+    @include marginPercent(680,0, auto,0,auto);
+    @include media($sp){
+        width: 91%;
+    }
+    img{
+        width: 100%;
+        display: block;
+        aspect-ratio: auto;
+        height: auto;
+    }
+}
+
+.anxietyProgramDetail{
+    @include marginPercent(680,21,auto,0,auto);
+    @include paddingPercent(680,30,0,15,0);
+    @include media($sp){
+        margin-top: 11.4%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 7% 0% 3.46% 0%;
+    }
+}
+.h3AnxietyProgramDetail{
+     @include rsFontSize(20, 20 , 16);
+     text-align: center;
+     line-height: 165%;
+}
+.txtTopAnxietyProgramDetail{
+    @include marginPercent(680,0,auto,0,auto);
+     @include rsFontSize(28, 28 , 20);
+     text-align: center;
+    line-height: 0.8;
+    
+    @include media($sp){
+        line-height: 1.2;
+        transform: translateY(-5%);
+    }
+}
+.anxietyProgramDetailFx{
+    @include marginPercent(680,19,auto,0,auto);
+    @include ontener_width(680,650);
+    @include media($sp){
+        margin-top: 4.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include ontener_width(345,319);
+    }
+}
+.liAnxietyProgramDetailFx{
+    @include paddingPercent(650,23,0,24,0);
+     @include ontener_width(650,320);
+     @include media($sp){
+              padding: 7.4% 0% 7.5% 0%;
+        @include ontener_width(319,319);
+     }
+     &:nth-child(n+2){
+          @include media($sp){
+               @include marginPercent(319,10,0,0,0);
+          }
+     }
+     &:nth-child(n+3){
+         @include marginPercent(650,11,0,0,0);
+          @include media($sp){
+               @include marginPercent(319,10,0,0,0);
+          }
+     }
+}
+#main #contents h4.h4AnxietyProgramDetailFx{
+    padding: 0;
+     @include ontener_width(320,292);
+     margin: auto;
+     @include rsFontSize(18, 18 , 16);
+     text-align: center;
+     line-height: normal;
+     border: none;
+      @include media($sp){
+           @include ontener_width(319,319);
+      }
+}
+.picAnxietyProgramDetail{
+    @include ontener_width(320,225);
+    @include marginPercent(320,11,auto,0,auto);
+    @include media($sp){
+        @include ontener_width(319,200);
+            margin-top: 4.89%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+}
+.txtAnxietyProgramDetail{
+    @include ontener_width(320,285);
+    @include marginPercent(320,14,auto,0,auto);
+     @include rsFontSize(16, 16 , 14);
+     line-height: 139.143%;
+     @include media($sp){
+          @include ontener_width(319,285);
+            margin-top: 5.26%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.55;
+     }
+}
+
+.recommendationProgram{
+      @include marginPercent(680,19,auto,0,auto);
+      width: 96.58%;
+      @include media($sp){
+        margin-top: 4.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+      @include ontener_width(319,319);
+      }
+}
+.picRecommendationProgram{
+    width: 100%;
+    margin: 0;
+    transform: translateX(3px);
+     @include media($sp){
+     width: 94%;
+    transform: translateX(1%);
+    margin: auto;
+     }
+    img{
+        width: 100%;
+    aspect-ratio: auto;
+    height: auto;
+    }
+}
+.h3RecommendationProgram{
+    @include marginPercent(680,9,auto,0,auto);
+    @include rsFontSize(20, 20 , 16);
+     text-align: center;
+     line-height: normal;
+     border: none; 
+     @include media($sp){
+        margin-top: 3%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+}
+#main #contents h4.h4RecommendationProgram{
+    @include marginPercent(680,3,auto,0,auto);
+    @include rsFontSize(24, 24 , 20);
+    transform: translateY(-10%);
+    padding: 0;
+     text-align: center;
+     line-height: normal;
+     border: none;
+      @include media($sp){
+        margin-top: 2.7%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+     }
+}

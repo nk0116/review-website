@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,h1,h2,h3,h4,h5,h6,ul,ol,li,table,td,div,address,p{
+	margin:0;
+	padding:0;
+	font-size: 12px;
+	font-family:'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', sans-serif;
+	font-weight: normal;
+}
+#header .head {
+	float: left;
+}
+
+* html body {
+	text-align:center;
+}
+* html div#content {
+	text-align:left;
+}
+/*画像の透過効果を擬似的に作る*/
+a:hover img {
+	filter: alpha(opacity="80");
+	-ms-filter: alpha(opacity="80");
+	opacity: 0.8;
+}
+/*テキストをホバー時にテキストカラーを変更*/
+a:hover {
+	color:#FE5901;
+
+	text-decoration:underline;
+}
+body{
+
+	margin-left:auto;
+	margin-right:auto;
+	}
+img {border: 0;}
+ul	{list-style: none;}
+em	{
+	visibility:hidden;
+	height: 70px;
+	}
+a	{
+	text-decoration: none;
+	}

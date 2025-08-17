@@ -1,0 +1,82 @@
+.telProgramAppeal {
+    @include marginPercent(680 , 20 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        @include ontener_width(345 , 315);
+        margin-top: 5.79%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.titleTelProgramAppeal {
+    aspect-ratio: 680/80;
+    
+    @include media($sp) {
+        aspect-ratio: 315/67;
+    }
+}
+
+.secTitleTelProgramAppeal {
+    width: 100%;
+}
+
+.h3TitleTelProgramAppeal {
+    text-align: center;
+    font-weight: 600;
+    line-height: 137.5%;
+    letter-spacing: 0.1em;
+    @include rsFontSize(16 , 16 , 16);
+    
+    @include media($sp) {
+        line-height: 137.5%;
+    }
+}
+
+.txtTitleTelProgramAppeal {
+    text-align: center;
+    font-weight: 600;
+    line-height: 78.571%;
+    letter-spacing: 0.1em;
+    @include rsFontSize(28 , 28 , 20);
+    @include marginPercent(680 , 6 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        line-height: 110%;
+        margin: 1.1% 0% 0% 0%
+    }
+    
+    a {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+}
+
+.logoProgramAppeal {
+    @include ontener_width(680 , 269);
+    @include marginPercent(680 , 10 , auto , 0 , auto);
+    
+    @include media($sp) {
+        @include ontener_width(315 , 269);
+        margin-top: 8.25%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.txtProgramAppealBtm {
+    text-align: center;
+    line-height: 138%;
+    @include rsFontSize(16 , 16 , 12);
+    @include marginPercent(680 , 5 , auto , 0 , auto);
+    
+    @include media($sp) {
+        line-height:  183.333%;
+        margin-top: 5.93%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

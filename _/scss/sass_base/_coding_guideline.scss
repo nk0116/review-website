@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+
+#page_top {
+  animation: cloak-in 0.75s;
+}
+
+
+.display_flex_center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display_flex_stretch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.display_flex_stretch_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.display_flex_center_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    align-items: flex-end;
+}
+.display_flex {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+.display_row {
+    flex-flow: row wrap;
+}
+
+
+#mintyou,.mintyou {
+    font-family: 游明朝 ,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS 明朝 E,Meiryo,serif;
+}
+.tj {
+    text-indent: -9999px;
+    text-align: left;
+    overflow: hidden;
+    display: block;
+    font-size: 0.1em;
+}
+@for $i from 0 through 8 {
+    .pc_order_#{$i} {
+        order: $i;
+
+        @include media($sp) {
+            order: unset;
+        }
+    }
+
+    .fw_#{$i*100} {
+        font-wieght: $i*100;
+    }
+}

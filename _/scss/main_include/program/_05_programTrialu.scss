@@ -1,0 +1,62 @@
+.programTrialu02 {
+    @include marginPercent(680 , 15 , auto , 0 , auto);
+    @include paddingPercent(680 , 25 , 0 , 30 , 0 );
+    
+    @include media($sp) {
+        margin-top: 2.94%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4.67% 0% 5.41% 0%;
+    }
+    
+    .txtProgramTrialu {
+        width: 100%;
+        margin: 0 0 0 0%;
+        
+        @include media($sp) {
+            width: 100%;
+            margin: 0 auto 0 0%;
+        }
+    }
+    
+    .programTrialuDetail {
+        @include marginPercent(652 , 29 , auto , 0 , auto);
+        
+        @include media($sp) {
+            margin-top: 4.1%;
+            margin-bottom: 0%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        &:nth-child(n+3) {
+            @include marginPercent(652 , 10 , auto , 0 , auto);
+            
+            @include media($sp) {
+                margin-top: 2.5%;
+                margin-bottom: 0%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+.programTrialuBtm {
+    display: block;
+    width: 100%;
+    @include ontener_width(680 , 650);
+    @include marginPercent(680 , 30 , auto , 0 , auto);
+    
+    @include media($sp) {
+        @include ontener_width(345 , 315);
+        @include marginPercent(345 , 20 , auto , 0 , auto);    
+    }
+}
+
+.picProgramTrialuBtm {
+    display: block;
+    width: 100%;
+    margin: 0;
+}

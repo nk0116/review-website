@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/corre.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>学校成績保証の個別指導塾 レビュー</title>
+<meta name="keywords" content="個別指導,受験,学習塾,受験対策,進路指導,岡山,総社市,成績保証,最安値" />
+<meta name="description" content="総社駅前に新規開校！個別指導レビューは学校のテスト対策に特化した「先生1人に生徒2名の完全個別指導塾」" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link href="../css/base.css" rel="stylesheet" type="text/css" />
+<link href="../css/top.css" rel="stylesheet" type="text/css" />
+<link rel="icon" href="../favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-195019416-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'UA-195019416-1');
+</script>	
+<meta name="google-site-verification" content="oPjcYR5ZnD0D5WGD100vGzDWgBDJOOzCzRsG3VQ1nik" />
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+<link href="../css/content_naka.css" rel="stylesheet" type="text/css" />
+<link href="../css/basestyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<?php include '../config/header.php';?>
+<div id="wrap_main" class="spchangeinquiry">
+<div id="main">
+<!--sidenav-->
+<?php include '../config/sidebar.php'; ?>
+<!--maincontent-->
+<div id="contents">
+<br class="sp_only">
+<!-- InstanceBeginEditable name="main_content" -->
+<h2>
+<picture class="kakushu_btn kakushu_btn_privacy">
+<source media="(min-width: 768px)" srcset="images/ti_inq.jpg"><!--PC画像-->
+<source media="(max-width: 768px)" srcset="images/ti_inqSp.jpg"><!--SP画像-->
+<img src="images/ti_inq.jpg" alt="お問合せ" width="680" height="30" />
+</picture> 
+</h2>

@@ -1,0 +1,89 @@
+.programLastAppeal {
+    @include ontener_width(680 , 650);
+    @include marginPercent(680 , 19 , auto , 0 , auto);
+    
+    @include media($sp) {
+        @include ontener_width(345 , 315);
+        margin-top: 8.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.titleProgramLastAppeal {
+    aspect-ratio: 650/90;
+    
+    @include media($sp) {
+        aspect-ratio: 315/79;
+    }
+}
+
+.secTitleProgramLastAppeal {
+    width: 100%;
+}
+
+.h2TitleProgramLastAppeal {
+    text-align: center;
+    line-height: 117.857%;
+    @include rsFontSize(28 , 28 , 18);
+    
+    @include media($sp) {
+        line-height: 147.333%;
+    }
+}
+
+.txtTitleProgramLastAppeal {
+    text-align: center;
+    line-height: 110%;
+    @include rsFontSize(20 , 20 , 14);
+    
+    @include media($sp) {
+        line-height: 157.143%;
+    }
+}
+
+.txtTitleProgramLastAppeal01 {
+    width: 100%;
+    justify-content: center;
+    line-height: 110%;
+    aspect-ratio: 650/52;
+    @include marginPercent(680 , 1 , 0 , 0 , 0);
+    @include rsFontSize(20 , 20 , 16);
+    
+    @include media($sp) {
+        aspect-ratio: 315/62;
+        @include marginPercent(315 , 1 , 0 , 0 , 0);
+    }
+}
+
+.txtTitleProgramLastAppeal02 {
+    width: 100%;
+    justify-content: center;
+    line-height: 110%;
+    aspect-ratio: 650/52;
+    @include marginPercent(680 , 1 , 0 , 0 , 0);
+    @include rsFontSize(20 , 20 , 16);
+    
+    @include media($sp) {
+        line-height: 132.5%;
+        aspect-ratio: 315/62;
+        @include marginPercent(315 , 1 , 0 , 0 , 0);
+    }
+}
+
+.btmLastAppeal {
+    display: block;
+    width: 100%;
+    @include marginPercent(650 , 20 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        margin: 6.34% 0% 0% 0%;
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

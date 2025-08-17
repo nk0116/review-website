@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* main_contents */
+#main #contents {
+	float: right;
+	width: 680px;
+}
+#main #contents .sentence {
+	width: 680px;
+	background-image: url(../images/main_bk.jpg);
+	background-repeat: repeat-y;
+}
+#main #contents .sentence p {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 636px;
+	margin-top: 10px;
+}
+#main #contents .sentence .news tr td img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#main #contents .sentence h3 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 616px;
+	margin-top: 10px;
+	margin-bottom:5px;
+	background-image: url(../images/icon.jpg);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#main #contents .sentence table {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 636px;
+}

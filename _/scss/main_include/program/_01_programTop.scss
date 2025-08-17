@@ -1,0 +1,54 @@
+.secProgramTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include paddingPercent(678 , 12 , 0 , 13 , auto);
+    @include media($sp) {
+        flex-flow: row wrap;
+        @include paddingPercent(375 , 17 , 0 , 0 , auto);
+    }
+}
+.h3ProgramTitle {
+    aspect-ratio: 183 / 25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0C3584;
+    @include rsFontSize(16 , 16 , 14);
+    @include kadomaru(3px);
+    @include ontener_width(678 , 183);
+    @include media($sp) {
+        width: 47%;
+        aspect-ratio: 165 / 26;
+    }
+
+}
+.txtProgramTitle {
+    @include rsFontSize(16 , 16 , 14);
+    margin-left: 8px;
+    font-weight: 900;
+    @include media($sp) {
+               margin: 2.73% 0% 0% 0%;
+        @include ontener_width(375 , 375);
+        text-align: center;
+        line-height: normal;
+    }
+}
+
+.iframeProgram {
+    @include kadomaru(5px);
+    position: relative;
+    aspect-ratio: 680 / 381;
+    overflow: hidden;
+    @include media($sp) {
+        margin: 2.2% 0% 0% 0%;
+            aspect-ratio: 345 / 193;
+    }
+    iframe {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+}

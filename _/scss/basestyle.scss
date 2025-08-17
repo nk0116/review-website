@@ -1,0 +1,116 @@
+@charset "utf-8";
+@import 'sass_base/mixin';
+@import 'sass_base/coding_guideline';
+//トップページ部分
+.pc_only {
+    display: block;
+    @include media($sp) {
+        display: none;
+    }
+}
+.sp_only {
+    display: none;
+    @include media($sp) {
+        display: block;
+    }
+}
+#main {
+    @include media($sp) {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+}
+#main #side {
+    @include media($sp) {
+        order: 2;
+        margin: 20px auto 0 auto;
+        @include ontener_width(375 , 345);
+    }
+}
+#main #contents {
+    margin: 20px 0 0 auto;
+    @include media($sp) {
+        order: 1;
+        margin: 0px auto 0 auto;
+        width: 86.669%;
+        //@include ontener_width(375 , 345);
+    }
+}
+#wrap_footer #footer {
+    @include media($sp) {
+        width: 100%;
+    }
+}
+#footer .footer_logo {
+    @include media($sp) {
+        width: 100%;
+    }
+}
+#footer .footer_light {
+    @include media($sp) {
+        width: 100%;
+    }  
+}
+.bg_0C3584 {
+    background: #0C3584;
+}
+.cl_0C3584 {
+    color: #0C3584;
+}
+.bg_00B3EE {
+    background: #00B3EE;
+}
+.bg_0074C7 {
+    background: #0074C7;
+}
+.bg_E6E6E6 {
+    background: #E6E6E6;
+}
+.bg_fff {
+    background: #FFF;
+}
+.txtset {
+    leading-trim: both;
+text-edge: cap;
+}
+.cl_fff {
+    color: #fff;
+}
+.cl_FFE600 {
+    color: #FFE600;
+}
+.cl_0C3584 {
+    color: #0C3584;
+}
+.cl_FF4D00 {
+    color: #FF4D00;
+}
+
+@for $i from 0 through 8 {
+    .pc_order_#{$i} {
+        order: $i;
+
+        @include media($sp) {
+            order: unset;
+        }
+    }
+
+    .fw_#{$i*100} {
+        font-weight: $i*100;
+    }
+}
+@import 'main_include/_header';
+@import 'main_include/_footer';
+@import 'main_include/_sidebar';
+
+@import 'main_include/about/_about';
+@import 'main_include/access/_access';
+@import 'main_include/charge/_charge';
+@import 'main_include/course/_course';
+@import 'main_include/inquiry/_inquiry';
+@import 'main_include/inquiry/_thanks';
+@import 'main_include/privacy/_privacy';
+@import 'main_include/top/_top';
+@import 'main_include/program/_program';

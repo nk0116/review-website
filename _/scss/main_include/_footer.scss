@@ -1,0 +1,46 @@
+@include media($sp) {
+    #wrap_footer {
+        height: unset;
+        padding-bottom: 3vw;
+    }
+    #wrap_footer {
+        @include marginPercent(375 , 40 , auto , 0 , auto);
+        ///height: 92.7vw;
+    }
+    #wrap_footer #footer {
+        @include paddingPercent(375 , 19 , 0 , 0 , 0);
+        @include ontener_width(375 , 345);
+    }
+    .link {
+        a {
+            display: block;
+            &:nth-child(n+2) {
+                @include marginPercent(300 , 3.891 , 0 , 0 , 0);
+            }
+        }
+    }
+    .display_none {
+        display: none;
+    }
+    #footer .footer_logo {
+        float: none;
+        @include marginPercent(300 , 6 , 0 , 0 , 0);
+        img {
+            width: 50%;
+            //height: 11.733333333333333vw;
+        }
+    }
+    #footer .footer_light {
+        float: none;
+        text-align: left;
+        @include marginPercent(300 , 7 , 0 , 0 , 0);
+    }
+    #wrap_copy {
+        //height: 6.666666666666667vw;
+    }
+    #wrap_copy address {
+        width: 100%;
+        @include rsFontSize(13 , 13 , 10);
+    }
+}
+

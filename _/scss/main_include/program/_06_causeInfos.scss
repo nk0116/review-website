@@ -1,0 +1,55 @@
+.causeInfos {
+    @include ontener_width(680 , 650);
+    @include marginPercent(680 , 19 , auto , 0 , auto);
+    
+    @include media($sp) {
+        @include ontener_width(345 , 315);
+        margin-top: 7.1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.h2CauseInfos {
+    text-align: center;
+    @include rsFontSize(16 , 16 , 14);
+}
+
+.h3CauseInfos {
+    text-align: center;
+    line-height: 88%;
+    @include rsFontSize(25 , 25 , 20);
+    @include marginPercent(650 , 4 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        line-height: 110%;
+        margin: 0.5% 0% 0% 0%;
+    }
+}
+
+.txtCauseInfosTop {
+    text-align: center;
+    @include rsFontSize(16 , 16 , 14);
+}
+
+.priceCauseInfo {
+    display: block;
+    width: 100%;
+    @include marginPercent(650 , 10 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        margin: 5.5% 0% 0% 0%;
+    }
+}
+
+.txtCauseInfosBtm {
+    font-weight: 400;
+    text-align: center;
+    @include rsFontSize(16 , 16 , 14);
+    @include marginPercent(650 , 10 , 0 , 0 , 0);
+    
+    @include media($sp) {
+        margin: 1.5% 0% 0% 0%;
+    }
+}

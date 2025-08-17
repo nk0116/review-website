@@ -1,0 +1,373 @@
+.course_main #main #contents{
+    @include media($sp){
+        background: unset;
+       @include ontener_width(375 , 345);
+       @include rsFontSize(14 , 14 , 14);
+       padding: 0;
+       img{
+            width: 100%;
+            height: auto;
+            display: block;
+            max-width: 100%;
+        }
+    }
+}
+.course_main #main #contents{
+    @include media($sp){ 
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.course_main tr,.course_main td{
+    @include media($sp){
+        display: block;
+    }
+}
+h2.ribon{
+    @include media($sp){ 
+        padding: 1rem 2rem 1rem 5rem;
+        @include marginPercent(345 , 20 , auto , 20 , auto);
+        @include rsFontSize(16 , 16 , 16);
+    }
+}
+h2.ribon span {
+    @include media($sp){
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        display: inline-block;
+        width: 38px;
+        height: 40px;
+        text-align: center;
+        background: #fa4141;
+    }
+    
+}
+h2.ribon span:after {
+    @include media($sp){ 
+        top: 50%;
+        left: 0;
+        display: block;
+        height: 50%;
+        border: 19px solid #fa4141;
+        border-bottom-width: 7px;
+        border-bottom-color: transparent;
+    }
+}
+h2.ribon span i {
+    @include media($sp){ 
+        position: relative;
+        z-index: 1;
+        color: #fff100;
+        top: 25px;
+    }
+}
+.course_main #main #contents{
+     @include media($sp){ 
+         table{
+            width: 100%;
+        }
+        
+     }
+    
+}
+.wak_chu{
+    @include media($sp){ 
+        width: 100%;
+        tbody,tr{
+            width: 100%;
+        }
+        tr td {
+            padding: 0;
+        }
+        .sptr{
+            @include paddingPercent(345 , 0 , 11 , 11 , 11);
+            width: fit-content;
+            text-align: left;
+        }
+        .courseSptr {
+            @include marginPercent(345 , 12 , auto , 0 , auto)
+            @include paddingPercent(345 , 11 , 11 , 11 , 11);
+        }
+        .sptr02{
+            margin: 2% 0 0 0;
+            width: 100%;
+        }
+        .sptr03{
+            margin: 2% 0 0 0;
+            text-align: left;
+            @include rsFontSize(14 , 14 , 14);
+        }
+        .settr{
+            display: inline-flex;
+            justify-content: space-between;
+        }
+        .settritem_01{
+            @include ontener_width(302 , 93);
+        }
+        .settritem_02{
+            @include ontener_width(302 , 186);
+            text-align: left;
+        }
+        .chuu5{
+            @include rsFontSize(16 , 16 , 16);
+        }
+        .chu_up{
+            @include rsFontSize(14 , 14 , 14);
+        }
+    }
+}
+
+.chu_kyoukaWap{
+    @include media($sp){ 
+        @include marginPercent(302 , 10 , auto, 0 , auto);
+        text-align: center;
+    }
+}
+.wak_chu tr td{
+     @include media($sp){ 
+        width: 100%;
+        text-align: center;
+    }
+}
+.wak_chu .red{
+    @include media($sp){
+        @include rsFontSize(16 , 16 , 16);
+    }
+}
+.shou_tih3_orange{
+    @include media($sp){ 
+        padding: 5% 2.5% 2% 2.5%;
+        background: #FFF4D7;
+        border:1px solid #CC6600;
+        border-bottom: unset;
+    }
+}
+.shou_tih3_green{
+    @include media($sp){ 
+       padding: 5% 2.5% 2% 2.5%;
+        background: #EDF4DD;
+        border:1px solid #99CC00;
+        border-bottom: unset;
+    }
+}
+.shou_tih3_blue{
+    @include media($sp){ 
+        padding: 5% 2.5% 2% 2.5%;
+        background: #DFF2EE;
+        border:1px solid #56ACD6;
+        border-bottom: unset;
+    }
+}
+.shou_tih3_gray{
+     @include media($sp){ 
+       padding: 5% 2.5% 2% 2.5%;
+        background: #F5F5F5;
+        border:1px solid #848484;
+        border-bottom: unset;
+    }
+}
+
+.wak_shou,.wak_kou,.wak_sdk-skr{
+     @include media($sp){ 
+        width: 100%;
+        tbody,tr,td{
+            width: 100%;
+        }
+        td{
+            width: fit-content;
+        }
+        .sptr{
+            @include paddingPercent(345 , 11 , 11 , 11 , 11);
+        }
+        .chu_kyouka.chu_kyouka_eigo {
+            display: inline;
+            @include paddingPercent(345 , 3 , 6 , 3 , 6);
+        }
+        .shou_eigo {
+            display: inline;
+        }
+        .chu_kyouka{
+            width: 100%;
+            padding: 0;
+        }
+        .chu_kyoukaWap td{
+            text-align: center;
+            margin: 0 auto;
+        }
+        video{
+            width: 100%;
+        }
+        .shou_de{
+            margin: 2% auto;
+            display: block;
+        }
+     }
+}
+.recommended .voice{
+    @include media($sp){
+        padding: 0;
+    }
+}
+.recommended .ttl, .course .ttl{
+    @include media($sp){
+        @include rsFontSize(15,15,15);
+        font-feature-settings: "palt";
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 1rem 0.0rem 0.5rem;
+    }
+}
+.recommended li{
+    @include media($sp){
+        width: 100%;
+        @include rsFontSize(14 , 14 , 14);
+        margin-bottom: 10px;
+    }
+}
+.recommended .label{
+    @include media($sp){
+        @include rsFontSize(15,15,15);
+        font-feature-settings: "palt";
+        position: relative;
+        display: inline-block;
+        height: 46px;
+        margin-left: 29px;
+        padding: 10px 25px 10px 25px;
+        color: #fff;
+        background: #fa4141;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        color: white;
+        box-sizing: border-box;
+    }
+}
+.recommended .label:before {
+    @include media($sp){
+        position: absolute;
+        top: 0;
+        left: -25px;
+        content: '';
+        border-width: 22px 25px 24px 0;
+        border-style: solid;
+        border-color: transparent #fa4141 transparent transparent;
+    }
+}
+.course .img{
+    @include media($sp){
+        width: 92%;
+        margin: 4% auto;
+    }
+}
+.up .flex dl {
+    @include media($sp) {
+        padding-top: 0;
+    }
+}
+.up .flex dd {
+    @include media($sp) {
+        padding: 0;
+    }
+}
+.up .menu {
+    @include media($sp) {
+        margin-top: 72px;
+    }
+}
+.up .label {
+    @include media($sp){
+        position: relative;
+        display: inline-block;
+        height: 46px;
+        margin-left: 22px;
+        padding: 10px 12px 10px 16px;
+        color: #fff;
+        background: #fa4141;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        color: white;
+        box-sizing: border-box;
+        font-feature-settings: "palt";
+    }
+}
+.up .menu .label{
+    @include media($sp){
+        top: -36px;
+    }
+}
+.up .label:before {
+    @include media($sp){
+        position: absolute;
+        top: 0;
+        left: -25px;
+        content: '';
+        border-width: 22px 25px 24px 0;
+        border-style: solid;
+        border-color: transparent #fa4141 transparent transparent;
+    }
+}
+.up .flex{
+    @include media($sp){
+        flex-flow: row wrap;
+        dl{
+            width: 100%;
+        }
+        .img{
+            width: 100%;
+            margin: 2% auto 0 auto;
+        }
+    }
+    dt{
+        @include rsFontSize(18 , 18 , 16);
+    }
+}
+.wak_kou tr td {
+    @include media($sp) {
+        padding: 0;
+    }
+    .kou_de {
+        @include media($sp) {
+            padding: 0;
+        }
+    }
+    .eizou {
+        @include media($sp) {
+            padding: 0;
+            font-feature-settings: "palt";
+        }
+    }
+}
+.kou_poto {
+    @include media($sp) {
+        @include marginPercent(345 , 20 , 0 , 0 , 0);
+    }
+}
+.wak_chu .settritem_02 {
+    @include media($sp){
+        width: 66.58%;
+        text-align: left;
+    }
+}
+.wrap_eizo {
+    @include media($sp){
+        float: left;
+        width: 100%;
+    }
+}
+.eizou {
+     @include media($sp){
+        float: left;
+        clear: both;
+        width: 100%;
+        padding-left: 10px;
+     }
+}
+
+
+
+
+

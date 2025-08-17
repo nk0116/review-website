@@ -1,0 +1,28 @@
+#spchangePrivacy #main #contents {
+    @include media($sp) {
+        background: none;
+        padding: 0;
+        width: 92%;
+        @include marginPercent(375 , 10 , auto , 0 , auto);
+    }
+}
+.kakushu_btn_privacyTitle {
+    width: 100%;
+    margin: 0;
+}
+#spchangePrivacy #main #contents img {
+    @include media($sp) {
+        height: auto;
+    }
+}
+.kakushu_btn_privacy{
+    @include media($sp) {
+        width: 100%;
+    }
+}
+.size14{
+     @include media($sp) {
+        width: 100%;
+        @include rsFontSize(14 , 14 , 14);
+    }
+}

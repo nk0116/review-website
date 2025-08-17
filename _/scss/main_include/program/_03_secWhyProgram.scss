@@ -1,0 +1,133 @@
+.secWhyProgram {
+    @include marginPercent(678 , 20 ,auto , 0 , auto );
+    @include media($sp) {
+        @include marginPercent(375 , 30 ,auto , 0 , auto );
+    }        
+}
+.h2WhyProgram {
+    @include rsFontSize(28 , 28 , 16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    @include media($sp) {
+        font-style: normal;
+        font-weight: 600;
+        line-height: 137.5%; /*  */
+    }
+}
+.detailWhyProgram01 {
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    @include paddingPercent(678 , 0 , 0 , 30 , 0 );
+    @include ontener_width(680 , 650);
+    @include marginPercent(678 , 18 ,auto , 0 , auto );
+    @include media($sp) {
+        width: 91%;
+        box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+        padding: 0% 0% 3.86% 0%;
+        margin-top: 2.53%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.h3detailWhyProgram {
+    @include rsFontSize(20 , 20 , 14);
+    aspect-ratio: 650 / 51;
+    font-weight: 600;
+    line-height: 110%; /*  */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    @include media($sp) {
+        aspect-ratio: 315 / 62;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 142.857%;
+    }
+
+}
+.detailWhyProgramFx {
+    @include marginPercent(650 , 30 , auto , 0 , auto);
+    @include ontener_width(650 , 630);
+    @include media($sp) {
+        @include ontener_width(315 , 295);
+        @include marginPercent(315 , 20 , auto , 0 , auto);
+    }
+}
+.photoDetailWhyProgram {
+    @include ontener_width(630 , 317);
+    margin: 0;
+    @include media($sp) {
+        @include ontener_width(295 , 295);
+    }
+}
+.txtDetailWhyProgram {
+    @include rsFontSize(16 , 16 , 14);
+    width: 43.23%;
+    font-style: normal;
+    line-height: 157.143%;
+    font-style: normal;
+    line-height: 139.143%;
+    /* transform: translate(0px, 6%); */
+    text-align: justify;
+    text-justify: inter-ideograph;
+    margin: 0px 2% 0 0%;
+    @include media($sp) {
+        margin-top: 5.37%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include ontener_width(295 , 295);
+        line-height: 157.143%; /*  */
+    }
+}
+.detailWhyProgram02 {
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    @include paddingPercent(678 , 0 , 0 , 27 , 0 );
+    @include ontener_width(680 , 650);
+    @include marginPercent(678 , 29 ,auto , 0 , auto );
+    @include media($sp) {
+        width: 91%;
+        box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+        padding: 0% 0% 7.06% 0%;
+        margin-top: 8.45%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.detailWhyProgram02 .detailWhyProgramFx {
+    @include marginPercent(650 , 28 , auto , 0 , auto);
+    @include ontener_width(650 , 630);
+    @include media($sp) {
+        @include ontener_width(315 , 295);
+        @include marginPercent(315 , 20 , auto , 0 , auto);
+    }
+}
+.photoDetailWhyProgram02 {
+
+    width: 50.31%;
+    margin: 10% 0 0 0;
+    @include media($sp) {
+        @include marginPercent(295 , 0 , auto , 0 , auto);
+        order: 1;
+        width: 100%;
+    }
+}
+.detailWhyProgram02 .txtDetailWhyProgram02 {
+    margin: 0;
+    width: 45%;
+    line-height: 135.943%;
+    @include media($sp) {
+        margin-top: 5.77%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 156.943%;
+        order: 2;
+        width: 100%;
+    }
+}

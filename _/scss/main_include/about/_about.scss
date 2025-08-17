@@ -1,0 +1,114 @@
+.about_main #main #contents{
+    @include media($sp){
+        background: unset;
+       @include ontener_width(375 , 345);
+       @include rsFontSize(14 , 14 , 14);
+       padding: 0;
+       img{
+            width: 100%;
+            height: auto;
+            //display: block;
+            max-width: 100%;
+        }
+    }
+}
+.about_main #main #contents h3{
+    @include media($sp){
+        padding: 8% 0 0 0;
+        @include rsFontSize(16 , 16 , 16);
+        background-position: left top;
+    }
+}
+.about_main #contents .sub_ti {
+    @include media($sp){
+        @include marginPercent(345 , 5 , auto , 0 , auto);
+        padding: 0;
+        @include rsFontSize(14, 14 , 14);
+    }
+}
+.about_main #wrap_main #main #contents p {
+    @include media($sp){
+        @include marginPercent(345 , 5 , auto , 5 , auto);
+        @include rsFontSize(14, 14 , 14);
+    }
+}
+.ab_img{
+    @include media($sp){
+        @include marginPercent(345 , 10 , auto , 20 , auto);
+        float: left;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+#bk{
+    @include media($sp){
+        padding: 0 6.2% 0% 6.2%;
+        background: url(../about/images/nyuukai_bkSp.png);
+        background-size: 100% auto;
+        background-repeat: repeat-y;
+    }
+}
+.nyuukai_tiH2{
+    @include media($sp){
+        padding: 4% 0 2% 0;
+        margin: 0 auto;
+    }
+}
+.about_main .nyuukai{
+    @include media($sp){
+        display: table-row-group;
+        tr{
+            display: table-row;
+        }
+        th,td{
+            display: table-cell;
+        } 
+    }
+}
+#wrap_main #main #contents .about{
+    @include media($sp){
+        width: 100%;
+    }
+}
+.about_main #main #contents .nyuukai1 img{
+    @include media($sp){
+        margin: 2% auto 5% auto;
+    }
+}
+.about_main .nyuukai{
+    @include media($sp){
+        .nyuukai2{
+            width: 12%;
+            padding: 0 2% 0 0;
+        }
+        .nyuukaipref{
+            width: 78.66%;
+        }
+        .nyuukai4{
+            padding: 6% 0 0 0;
+        }
+    }
+}
+
+.jugyou{
+    @include media($sp){
+        width: 682px;
+         tr{
+             display: table-row;
+             width: 100%;
+         }
+        tbody{
+            width: 100%;
+        }
+        td{
+            display: table-cell;
+            min-width: auto;
+        }
+    }
+}
+#wrap_main #main #contents .jugyou tr th {
+    background-color: #B7D8A5;
+    min-width: 47px;
+}

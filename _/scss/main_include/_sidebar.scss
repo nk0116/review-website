@@ -1,0 +1,122 @@
+
+#mainSp{
+    display: flex;
+    flex-flow: row wrap;
+}
+#mainSp #side{
+    @include media($sp){
+        order: 3;
+    }
+}
+#kakushu{
+    @include media($sp){
+        //@include ontener_width(375 , 345);
+        margin: 0 auto;
+        background: #FFF3CD;
+    }
+}
+.kakushu_btn_Top {
+    @include media($sp) {
+        width: 100%;
+    }
+    img {
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+}
+.kakushuThumbs img{
+    @include media($sp){
+        @include marginPercent(375 , 20 , auto , 0 , auto);
+        @include ontener_width(375 , 300);
+        height: auto;
+    }
+    .kakushutopImg{
+       width: 100%;
+       height: auto;
+    }
+}
+#kakushu .kakushu_btn{
+    @include media($sp){
+        width: 100%;
+        height: auto;
+    }
+}
+
+.kakushu_btn{
+    @include media($sp){
+        margin: 0 auto;
+        @include ontener_width(345 , 300);
+    }
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+.kakushu_btn02{
+     @include media($sp){
+        margin: 0 auto;
+        @include ontener_width(345 , 300);
+    }
+}
+.kakushu_btn table{
+    @include media($sp){
+        display: block;
+        width: 100%;
+        @include marginPercent(300 , 10 , auto , 0 , auto);
+    }
+}
+
+.side_img{
+    @include media($sp){
+        display: inline-block;
+    }
+}
+.side_img .side_img_td{
+    @include media($sp){
+        display: inline-block;
+    }
+    img {
+        width: 113px;
+        @include media($sp) {
+            width: 100%;
+        }
+    }
+}
+.kakushu_btn tr{
+    @include media($sp){
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.kakushu_btn table td{
+    @include media($sp){
+        @include ontener_width(300 , 142);
+         img{
+            width: 100%;
+            height: auto;
+        }
+    }  
+}
+.kakushu_add{
+    @include media($sp){
+        padding: 0;
+        @include marginPercent(300 , 20 , 0 , 0 , 0);
+        
+        
+    }
+}
+.kakushu_btn .name_corre{
+    @include media($sp){
+        @include rsFontSize(15 , 15 , 16);
+        white-space: nowrap;
+    }
+}
+.name_corre_bottom{
+    width: 187px;
+    @include media($sp){
+        @include marginPercent(221 , 8 , 0 , 8 , 0);
+        @include ontener_width(221, 172);
+    }
+}

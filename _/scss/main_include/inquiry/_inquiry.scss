@@ -1,0 +1,171 @@
+.spchangeinquiry #main #contents {
+    @include media($sp) {
+        background: none;
+        @include marginPercent(375 , 10 , auto , 0 , auto);
+        padding: 0;
+        @include ontener_width(375 , 345);
+    }
+}
+.spchangeinquiry .kakushu_btn.kakushu_btn_privacy {
+    width: 100%;
+    margin: 0;
+}
+.spchangeinquiry p{
+    @include media($sp) {
+        @include rsFontSize(14 , 14 , 14);
+    }
+}
+.spchangeinquiry #main #contents .must{
+    @include media($sp){
+        width: auto;
+        height: auto;
+        margin: 0 2% 0 0;
+    }
+}
+#main #contents .must01{
+    @include media($sp){
+        width: auto;
+        height: auto;
+        margin: 0 1.5% 0 0;
+    }
+}
+#mailform table.mailform {
+    @include media($sp){
+        display: block;
+        width: 100%;
+        height: auto;
+        border-top: 1px solid #CCCCCC;
+        overflow: hidden;
+        @include paddingPercent(345 , 10 , auto , 0 , auto);
+        tr,tbody{
+            display: block;
+            width: 100%;
+            
+        }
+        textarea{
+            width: 85vw !important;
+            height: 48vw !important;
+        }
+        input{
+            min-width: 50%;
+            width: 85vw !important;
+        }
+        select{
+            max-width: 50%;
+        }
+        .mfp_50{
+            width: 50% !important;
+        }
+        li input{
+            width: 85vw !important;
+        }
+    }
+}
+
+.mailform.mailform tr th {  
+     @include media($sp){
+        padding: 1.8% 1.8%;
+        display: block;
+        width: auto;
+        text-align: left;
+        background: #E8EEF9;
+        border-bottom: none;
+    }
+}
+.mailform.mailform tr.mfptrLast th {  
+     @include media($sp){
+        padding: 0;
+        background: #fff;
+        border-top: solid 1px #CCCCCC;
+    }
+}
+.mailform.mailform tr td {  
+     @include media($sp){
+        padding: 3% 0% 5.7% 3%;
+        display: block;
+        width: 100%;
+        max-width: 97%;
+        text-align: left;
+        background: #fff;
+        border-bottom: none;
+    } 
+}
+.mailform.mailform tr.mfptrLast td {  
+     @include media($sp){
+        padding: 3% 0% 3% 3%;
+        border-bottom: solid 1px #CCCCCC;
+    }
+}
+.mailform.mailform tr td ol {  
+     @include media($sp){
+        max-width: 97%;
+        text-align: left;
+    } 
+}
+#mailform div#mfp_buttons ul{
+    @include media($sp){
+        @include ontener_width(375 , 345);
+    }
+}
+.spchangeinquiry div#mfp_buttons ul li{
+    @include media($sp){
+        width: 48%;    
+
+        &:last-child{
+            float: right;
+        }
+        input{
+            width: 100%;
+            background-size: 100% auto !important;
+            background-position: center !important;
+        }
+    }
+}
+
+
+
+
+//ポップアップ
+div#confirmWindow{
+    @include media($sp){
+        z-index: 9999 !important;
+    }
+}
+#confirmBody{
+    @include media($sp){
+        z-index: 9999 !important;
+        right: 0px !important;
+        left: 0px !important;
+        max-width: 100% !important;
+        height: auto !important;
+        table.infield,tbody,tr{
+            width: 86% !important;
+        }
+        ul.confirm_layer li{
+            width: 100% !important;
+        }
+        ul.confirm_layer{
+            //width: 100% !important;
+        }
+    }
+    
+}
+#confirmBody {
+    @include media($sp){
+        ul.confirm_layer{
+            width: 100% !important;
+        }
+        li.confirm_top{
+            background-size: 100% 100%;
+            background-position: center bottom;
+        }
+        li.confirm_bottom{
+            background-size: 100% 100%;
+            background-position: center top;
+        }
+        li.confirm_middle{
+            background-size: 100% 100%;
+            background-position: center center;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.941" x2="0.5" y2="0.444" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd8000"/>
+      <stop offset="1" stop-color="#fead5b"/>
+    </linearGradient>
+  </defs>
+  <g id="グループ_90" data-name="グループ 90" transform="translate(-321 -10)">
+    <g id="長方形_43" data-name="長方形 43" transform="translate(321 10)" stroke="#fe8723" stroke-width="1" fill="url(#linear-gradient)">
+      <rect width="44" height="44" rx="5" stroke="none"/>
+      <rect x="0.5" y="0.5" width="43" height="43" rx="4.5" fill="none"/>
+    </g>
+    <g id="グループ_14" data-name="グループ 14" transform="translate(7551)">
+      <g id="長方形_12" data-name="長方形 12" transform="translate(-7218 23)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="20" height="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="1" fill="none"/>
+      </g>
+      <g id="長方形_12-2" data-name="長方形 12" transform="translate(-7218 31)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="20" height="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="1" fill="none"/>
+      </g>
+      <g id="長方形_12-3" data-name="長方形 12" transform="translate(-7218 39)" fill="#fff" stroke="#fff" stroke-width="1">
+        <rect width="20" height="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="19" height="1" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

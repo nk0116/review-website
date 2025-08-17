@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* アバウト */
+#main #contents {
+	float: right;
+	width: 680px;
+}
+.seiseki_1   {
+	font-size: 15px;
+	font-weight: bold;
+}
+dl dd {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+dl {
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+#contents p .seiseki_2 {
+	font-size: 35px;
+	font-weight: bolder;
+	color: #F90;
+}
+#main #contents h4 {
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #1A4F01;
+	padding-left: 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.mendan {
+	border: 1px solid #CAE7AD;
+}
+#contents .hyou tr th {
+	background-color: #FF9900;
+	color: #FFF;
+
+
+}
+#contents .hyou tr .shou_t {
+	background-color: #FFCACA;
+	text-align: center;
+
+
+}
+#contents .hyou tr .chuu_t {
+	background-color: #BDDE7A;
+	text-align: center;
+
+
+}
+#contents .hyou tr .kou_t {
+	background-color: #FBE96C;
+	text-align: center;
+
+
+}
+#contents .hyou tr td {
+	text-align: right;
+	background-color: #FFFFDF;
+	
+}
+#contents .hyou{
+	border: 1px solid #666;
+	
+}
+
+#contents .right_text {
+	text-align: right;
+	width:680px;
+	display: block;
+}
+#contents .squ {
+	color: #363;
+}
+#wrap_main #main #contents .daihyou {
+	border: 1px solid #508A0B;
+}
+#contents .daihyou tr td img {
+	border: 1px solid #CCC;
+}
+#contents .daihyou tr td {
+	vertical-align: top;
+	text-align: left;
+}
+#contents .daihyou tr td .daihyou_name {
+	border-left-width: 8px;
+	border-left-style: solid;
+	border-left-color: #363;
+	padding-left: 13px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+
+#contents .jugyou {
+	text-align: center;
+}
+#contents .jugyou tr td {
+	padding: 3px;
+	background-color: #FFFFDF;
+
+}
+#wrap_main #main #contents .jugyou tr th {
+	background-color: #B7D8A5;
+}
+#contents .jugyou tr .time {
+	background-color: #B7D8A5;
+	font-weight: normal;
+}
+
+
+/*　コースについて　*/
+
+
+
+#main #contents h3 {
+	
+
+
+#main #contents .course tr td {
+	padding: 5px;
+}
+.course_name {
+	text-align: center;
+}
+
+#contents .course tr th {
+	background-color: #A4DD1E;
+	color: #FFF;
+	font-size: 13px;
+}
+#contents .course .ye {
+	background-color: #FFFFC8;
+}
+#wrap_main #main #contents .course .gree {
+	background-color: #EAF8C9;
+}
+#contents .touki tr td,th {
+	padding: 5px;
+}
+
+
+
+#contents .thanks {
+	font-size: 15px;
+	text-align: center;
+	width: 680px;
+}
+#contents .touki tr th {
+	background-color: #64B0FD;
+	color: #FFF;
+}
+#contents #try {
+	width: 680px;
+	border: 1px solid #CCC;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#contents .katuyou_table {
+	font-size: 18px;
+	font-weight: bold;
+	color: #39C;
+}
+
+#contents .osusume {
+	width: 678px;
+	height: 112px;
+	display: block;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCC;
+	border-left-color: #CCC;
+}
+#contents .osusume .img {
+	float: left;
+	width: 250px;
+	padding-left: 2px;
+}
+.osusume .sentence {
+	float: right;
+	width: 420px;
+	font-size: 15px;
+	padding-right: 2px;
+}
+#contents .clear {
+	clear: both;
+}
+.shougaku {
+	font-size: 24px;
+}
+.osusume_shougaku dt {
+	font-size: 15px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #F90;
+	width: 100px;
+	text-align: center;
+}
+.osusume_chuugaku dt {
+	font-size: 15px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #F99;
+	width: 100px;
+	text-align: center;
+}
+.osusume_koukou dt {
+	font-size: 15px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #6CC;
+	width: 100px;
+	text-align: center;
+}
+#contents .course {
+	font-size: 15px;
+}
+.head_tel a img {
+	margin-bottom:5px;
+}
+
