@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     $url = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     if(strpos($url,'localhost') !== false){
         $siteUrl = "/";
@@ -12,7 +12,9 @@
     else {
         $siteUrl = "https://kobetsu-review.com/";
     }
-?>
+?> -->
+<?php require_once __DIR__ . '/site_url.php'; ?>
+
 <div id="side">
 
     <div id="kakushu">

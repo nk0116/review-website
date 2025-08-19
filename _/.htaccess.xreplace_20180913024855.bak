@@ -1,2 +1,0 @@
-suPHP_ConfigPath /home/idex/kobetsu-review.com/xserver_php/
-AddHandler x-httpd-php5.3 .php .phps

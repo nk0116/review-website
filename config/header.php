@@ -1,18 +1,30 @@
-<?php
-    $url = (empty($_SERVER['HTTPS']) ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-    if(strpos($url,'localhost') !== false){
-        $siteUrl = "/";
-    }
-    elseif(strpos($url,'sunplads.onamaeweb.jp') !== false){
-        $siteUrl = "https://sunplads.onamaeweb.jp/test_up/okayama/kobetsu-review.com/";
-    }
-    elseif(strpos($url,'kobetsu-review-com.sunplads-staging.com') !== false){
-        $siteUrl = "https://kobetsu-review-com.sunplads-staging.com/";
-    }
-    else {
-        $siteUrl = "https://kobetsu-review.com/";
-    }
-?>
+<!-- <?php
+  $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+  $host   = $_SERVER['HTTP_HOST'] ?? '';          // 例: review.local / localhost:8000 / 127.0.0.1
+  $url    = $scheme . '://' . $host . ($_SERVER['REQUEST_URI'] ?? '/');
+
+  // ローカル判定（必要に応じて追加）
+  $isLocal =
+    preg_match('/^(localhost|127\.0\.0\.1)(:\d+)?$/i', $host) ||
+    preg_match('/^review\.local(:\d+)?$/i', $host);
+
+  if ($isLocal) {
+      // ローカルではルート相対で動かす（本番にも優しい）
+      $siteUrl = '/';
+  }
+  elseif (strpos($host,'sunplads.onamaeweb.jp') !== false) {
+      $siteUrl = 'https://sunplads.onamaeweb.jp/test_up/okayama/kobetsu-review.com/';
+  }
+  elseif (strpos($host,'kobetsu-review-com.sunplads-staging.com') !== false) {
+      $siteUrl = 'https://kobetsu-review-com.sunplads-staging.com/';
+  }
+  else {
+      $siteUrl = 'https://kobetsu-review.com/';
+  }
+?> -->
+
+<?php require_once __DIR__ . '/site_url.php'; ?>
+
 <header>
     <div class="pc_only">
         <div id="header">
