@@ -30,7 +30,7 @@
         <div id="header">
             <h1>
                 <?php if(empty($nowPage)): ?>
-                <a href="<?php echo $siteUrl; ?>">
+                <a href="../index.html">
                 <?php endif; ?>
                 <img src="<?php echo $siteUrl; ?>images/header_logo.jpg" alt="学校成績保証の個別指導塾「レビュー」" width="439" height="75" />
                 <?php if(empty($nowPage)): ?>
