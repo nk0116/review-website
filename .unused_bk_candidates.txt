@@ -1,0 +1,13 @@
+./course/index-bk.html
+./course/img/_notes/osusume_bk_s1.jpg.mno
+./charge/index20210410bk.html
+./access/index-20210410bk.html
+./images/_notes/main_bk.jpg.mno
+./images/_notes/side_bk.jpg.mno
+./images/_notes/topimg_bk.jpg.mno
+./images/_notes/gnav_bk.jpg.mno
+./index__bk.html
+./about/images/_notes/nyuukai_bktop.jpg.mno
+./about/images/_notes/nyuukai_bkbtm.jpg.mno
+./about/images/_notes/nyuukai_bk.jpg.mno
+./.unused_bk_candidates.txt

@@ -1,0 +1,14 @@
+# --- Backup / 一時ファイル ---
+*[_-]bk*        # -bk や _bk を含むファイル名を無視
+*.bak           # .bak で終わるファイル
+*~              # エディタが作る一時バックアップ (xxx~)
+
+# --- 開発ツールが勝手に作るもの ---
+**/_notes/      # Dreamweaver の _notes フォルダ
+*.mno           # Dreamweaver メモファイル
+**/nbproject/   # NetBeans プロジェクト用
+_archive/       # 自分で一時退避したフォルダ
+
+# --- OS依存の不要ファイル ---
+.DS_Store       # macOS Finder
+Thumbs.db       # Windows サムネイルキャッシュ
