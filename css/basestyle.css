@@ -349,7 +349,7 @@ html {
 #gnavSp {
   background: #FF9900;
   display: none;
-  height: 100vh;
+  height: calc(100vh - 65.16px);
   width: 100%; }
 
 .gnavSpul {
