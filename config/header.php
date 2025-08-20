@@ -26,7 +26,7 @@
 <?php require_once __DIR__ . '/site_url.php'; ?>
 
 <header>
-    <div class="pc_only">
+    <div class="pc_only js-header">
         <div id="header">
             <h1>
                 <?php if(empty($nowPage)): ?>
