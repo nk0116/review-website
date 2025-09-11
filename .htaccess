@@ -1,3 +1,7 @@
 <Files "index.html">
   SetHandler application/x-httpd-php
 </Files>
+
+<IfModule mime_module>
+  AddType application/x-httpd-php .html .htm
+</IfModule>
