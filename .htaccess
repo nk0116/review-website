@@ -1,7 +1,9 @@
-<Files "index.html">
-  SetHandler application/x-httpd-php
-</Files>
+# ディレクトリ一覧を無効化
+Options -Indexes
 
-<IfModule mime_module>
-  AddType application/x-httpd-php .html .htm
-</IfModule>
+# .html でアクセスされたら同名の .php を表示（内部振り分け）
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)\.html$ $1.php [L]

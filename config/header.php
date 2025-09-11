@@ -30,7 +30,7 @@
         <div id="header">
             <h1>
                 <?php if(empty($nowPage)): ?>
-                <a href="../index.html">
+                <a href="../index.php">
                 <?php endif; ?>
                 <img src="<?php echo $siteUrl; ?>images/header_logo.jpg" alt="学校成績保証の個別指導塾「レビュー」" width="439" height="75" />
                 <?php if(empty($nowPage)): ?>
@@ -39,7 +39,7 @@
             </h1>
             <p class="head_tel">
                 <?php if(empty($nowPage)): ?>
-                <a href="../index.html"><img src="../images/btn_top.jpg" alt="トップページ" width="95" height="21" class="top_btn"></a>
+                <a href="../index.php"><img src="../images/btn_top.jpg" alt="トップページ" width="95" height="21" class="top_btn"></a>
                 <?php endif; ?>
                 <img src="<?php echo $siteUrl; ?>images/header_tel.jpg" alt="電話番号　0866-95-2100" width="232" height="75" />
             </p>
@@ -48,12 +48,12 @@
         <div id="gnav_wrap">
             <div id="gnav">
                 <ul>
-                    <li><a href="<?php echo $siteUrl; ?>about/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_about.png" alt="個別指導レビューについて" width="153" height="34" /></a></li>
-                    <li><a href="<?php echo $siteUrl; ?>course/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_course.png" alt="コースについて" width="153" height="34" /></a></li>
-             		<li><a href="<?php echo $siteUrl; ?>program/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_pcourse.png" alt="コースについて" width="153" height="34" /></a></li>
-                    <li><a href="<?php echo $siteUrl; ?>charge/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_ryokin.png" alt="料金について" width="153" height="34" /></a></li>
-                    <li><a href="<?php echo $siteUrl; ?>access/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_annai.png" alt="教室案内" width="153" height="34" /></a></li>
-                    <li><a href="<?php echo $siteUrl; ?>inquiry/index.html"><img src="<?php echo $siteUrl; ?>images/gnav_contact.png" alt="お問合せ" width="153" height="34" /></a></li>
+                    <li><a href="<?php echo $siteUrl; ?>about/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_about.png" alt="個別指導レビューについて" width="153" height="34" /></a></li>
+                    <li><a href="<?php echo $siteUrl; ?>course/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_course.png" alt="コースについて" width="153" height="34" /></a></li>
+             		<li><a href="<?php echo $siteUrl; ?>program/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_pcourse.png" alt="コースについて" width="153" height="34" /></a></li>
+                    <li><a href="<?php echo $siteUrl; ?>charge/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_ryokin.png" alt="料金について" width="153" height="34" /></a></li>
+                    <li><a href="<?php echo $siteUrl; ?>access/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_annai.png" alt="教室案内" width="153" height="34" /></a></li>
+                    <li><a href="<?php echo $siteUrl; ?>inquiry/index.php"><img src="<?php echo $siteUrl; ?>images/gnav_contact.png" alt="お問合せ" width="153" height="34" /></a></li>
                 </ul>
             </div>
         </div>
@@ -84,12 +84,12 @@
         <div id="gnav_wrapSp">
             <div id="gnavSp">
                 <ul class="gnavSpul">
-                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>about/index.html">レビューについて</a></li>
-                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>course/index.html">個別指導指導コース</a></li>
-            		<li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>program/index.html">プログラミングコース</a></li>
-                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>charge/index.html">料金案内</a></li>
-                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>access/index.html">教室案内</a></li>
-                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>inquiry/index.html">お問合せ</a></li>
+                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>about/index.php">レビューについて</a></li>
+                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>course/index.php">個別指導指導コース</a></li>
+            		<li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>program/index.php">プログラミングコース</a></li>
+                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>charge/index.php">料金案内</a></li>
+                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>access/index.php">教室案内</a></li>
+                    <li class="gnavSpli"><a class="gnavSplink" href="<?php echo $siteUrl; ?>inquiry/index.php">お問合せ</a></li>
                 </ul>
             </div>
         </div>

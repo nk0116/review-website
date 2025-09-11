@@ -16,7 +16,7 @@ include 'form_validation.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-$form_Url = 'index.html';//本番用
+$form_Url = 'index.php';//本番用
 
 $kengakuAdult =[
     '大人'=>'大人','1名'=>'1名','2名'=>'2名','3名'=>'3名','4名'=>'4名','5名'=>'5名','6名'=>'6名'

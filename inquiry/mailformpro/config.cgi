@@ -28,7 +28,7 @@ $config{"mailfrom"} = $mailto[0];
 $config{"fromname"} = '個別指導レビュー総社駅前校【お問い合わせ】';
 
 ##サンクスページのURL
-$config{"thanks_url"} = '../thanks.html';
+$config{"thanks_url"} = '../thanks.php';
 
 ##サンクスページに通し番号を渡す(1:ON / 0:OFF)
 $config{"thanks_serial"} = 1;
@@ -68,7 +68,7 @@ $config{"limit_format"} = '<p class="limit">残り応募数はあと <strong><li
 $config{"limit_over"} = '<p class="limit"><strong>このフォームの応募数を超えました。</strong></p>';
 
 ##エラーページURL
-#$config{"error_url"} = 'http://cgi.synck.com/mailform/pro2.0.0/error.html';
+#$config{"error_url"} = 'http://cgi.synck.com/mailform/pro2.0.0/error.php';
 
 ##設置者に届くメールの件名
 $config{"subject"} = '個別指導レビュー総社駅前校ホームページ【お問い合わせ】より';

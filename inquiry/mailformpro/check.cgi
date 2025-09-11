@@ -13,7 +13,7 @@ if($hit eq $null && !(-f 'Jcode.pm')){
 			<dd>
 				日本語文字コード変換モジュール「Jcode」がインストールされていません。
 				<a href="http://search.cpan.org/" target="_blank">CPAN</a>から「Jcode」で検索するとJcodeが出てくると思うので、クリックして右側にあるDownloadからダウンロードしてください。
-				圧縮形式が.tar.gzというタイプの圧縮ファイルのため、<a href="http://www.vector.co.jp/soft/win95/util/se166893.html" target="_blank">Lhaca</a>などの解凍ソフトで解凍してね。
+				圧縮形式が.tar.gzというタイプの圧縮ファイルのため、<a href="http://www.vector.co.jp/soft/win95/util/se166893.php" target="_blank">Lhaca</a>などの解凍ソフトで解凍してね。
 				で、解凍するとゴチャゴチャファイルがあるんですが「Jcode.pm」と「Jcodeフォルダ」をsend.cgiと同じ階層にアップすればOKです。
 			</dd>
 	__error_body__
@@ -120,7 +120,7 @@ else {
 	__error_body__
 	$error_message .= $error;
 }
-if($config{"thanks_url"} eq 'http://cgi.synck.com/mailform/pro2.0.9/thanks.html'){
+if($config{"thanks_url"} eq 'http://cgi.synck.com/mailform/pro2.0.9/thanks.php'){
 	$error = <<'	__error_body__';
 			<dt>【致命的】サンクスページが標準状態デスヨッ！！</dt>
 			<dd>

@@ -24,14 +24,14 @@
             <img src="<?php echo $siteUrl; ?>images/ti_kakushu.jpg" alt="各種お問合せ" width="250" height="30" />
         </picture>
         <div class="kakushu_btn02">
-            <a class="kakushuThumbs kakushuThumbs01" href="<?php echo $siteUrl; ?>inquiry/index.html">
+            <a class="kakushuThumbs kakushuThumbs01" href="<?php echo $siteUrl; ?>inquiry/index.php">
                 <picture>
                     <source media="(min-width: 768px)" srcset="<?php echo $siteUrl; ?>images/link_contact.jpg"><!--PC画像-->
                     <source media="(max-width: 768px)" srcset="<?php echo $siteUrl; ?>images/link_contactSp.jpg"><!--SP画像-->
                     <img src="<?php echo $siteUrl; ?>images/link_contact.jpg" alt="お問合せ" width="231" height="54" class="kakushu_btn" />
                 </picture>
             </a>
-            <a  class="kakushuThumbs kakushuThumbs02" href="<?php echo $siteUrl; ?>access/index.html">
+            <a  class="kakushuThumbs kakushuThumbs02" href="<?php echo $siteUrl; ?>access/index.php">
                 <picture>
                     <source media="(min-width: 768px)" srcset="<?php echo $siteUrl; ?>images/link_annnai.jpg"><!--PC画像-->
                     <source media="(max-width: 768px)" srcset="<?php echo $siteUrl; ?>images/link_annnaiSp.jpg"><!--SP画像-->

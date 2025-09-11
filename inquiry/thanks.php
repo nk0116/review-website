@@ -16,7 +16,7 @@
     しばらくおまちください。<br />
     <br />
     <br />
-    <a href="../index.html">トップへ戻る</a>
+    <a href="../index.php">トップへ戻る</a>
 </p>
 <!-- InstanceEndEditable -->
 <!--idcontents fin-->

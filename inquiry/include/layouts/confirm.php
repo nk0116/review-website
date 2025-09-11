@@ -80,7 +80,7 @@
         <th></th>
         <td>
             <p>【個人情報の利用目的】<br />
-                個人情報の取り扱いに関しては、「<a href="../privacy/index.html">プライバシーポリシー</a>」をご確認ください。プライバシーポリシーをご確認の上、同意をいただける場合は「確認画面へ」ボタンをクリックしてお進みください。<br />
+                個人情報の取り扱いに関しては、「<a href="../privacy/index.php">プライバシーポリシー</a>」をご確認ください。プライバシーポリシーをご確認の上、同意をいただける場合は「確認画面へ」ボタンをクリックしてお進みください。<br />
             </p>
             <p></p>
         </td>
@@ -91,7 +91,7 @@
 <div id="mfp_buttons">
     <ul style="    display: flex; align-items: center;    justify-content: space-between;">
         <li style="width: 100px;">
-            <form action="index.html" method="post">
+            <form action="index.php" method="post">
                 <?php $postdatas->FormDataBack(); ?>
                 <input class="form_submit_button" type="image" src="images/mfp_resetSp.png" value="入力画面へ戻る" style="width: 100%;margin:2% 0 0 0;">
             </form>

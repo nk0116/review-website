@@ -16,21 +16,21 @@
 <div id="wrap_footer">
     <div id="footer">
         <p class="link">
-            <a href="<?php echo $siteUrl; ?>index.html">トップ </a>
+            <a href="<?php echo $siteUrl; ?>index.php">トップ </a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>about/index.html">個別指導レビューについて</a>
+            <a href="<?php echo $siteUrl; ?>about/index.php">個別指導レビューについて</a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>course/index.html">個別指導コースボタン </a>
+            <a href="<?php echo $siteUrl; ?>course/index.php">個別指導コースボタン </a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>program/index.html">プログラミングコース </a>
+            <a href="<?php echo $siteUrl; ?>program/index.php">プログラミングコース </a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>charge/index.html">料金について</a>
+            <a href="<?php echo $siteUrl; ?>charge/index.php">料金について</a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>access/index.html">教室案内</a>
+            <a href="<?php echo $siteUrl; ?>access/index.php">教室案内</a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>inquiry/index.html">お問合せ </a>
+            <a href="<?php echo $siteUrl; ?>inquiry/index.php">お問合せ </a>
             <span class="display_none">|</span>
-            <a href="<?php echo $siteUrl; ?>privacy/index.html">プライバシーポリシー </a>
+            <a href="<?php echo $siteUrl; ?>privacy/index.php">プライバシーポリシー </a>
         </p>
         <br class="pc_only">
         <div class="footer_logo">
@@ -50,7 +50,7 @@
 <div id="wrap_copy">
     <address>
         <?php if(empty($nowPage)): ?>
-        Copyright(C) 2012 <a href="../index.html">Kobetsu-review</a>. All Right Reserved
+        Copyright(C) 2012 <a href="../index.php">Kobetsu-review</a>. All Right Reserved
         <?php else: ?>
         Copyright(C) 2012 Kobetsu-review. All Right Reserved
         <?php endif; ?>

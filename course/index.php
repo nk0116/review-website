@@ -317,7 +317,7 @@ gtag('config', 'UA-195019416-1');
                     </p>
                     <br />
                     <p style="text-align: center; display: block;">
-                        <a href="../inquiry/index.html" target="_blank"><img src="img/sdk-skr_btn.png"/></a>
+                        <a href="../inquiry/index.php" target="_blank"><img src="img/sdk-skr_btn.png"/></a>
                     </p>
                     <br />
                     <br />
@@ -407,7 +407,7 @@ gtag('config', 'UA-195019416-1');
                         </p>
 
                         <p class="contact">
-                            <a href="https://www.kobetsu-review.com/inquiry/index.html" target="_blank">
+                            <a href="https://www.kobetsu-review.com/inquiry/index.php" target="_blank">
                                 <img src="img/sdk-skr_btn.png" alt="お問合せはこちら">
                             </a>
                         </p>
@@ -477,7 +477,7 @@ gtag('config', 'UA-195019416-1');
                             </p>
                         </div>
                         <p class="contact">
-                            <a href="https://www.kobetsu-review.com/inquiry/index.html" target="_blank">
+                            <a href="https://www.kobetsu-review.com/inquiry/index.php" target="_blank">
                                 <img src="img/sdk-skr_btn.png" alt="お問合せはこちら">
                             </a>
                         </p>
@@ -549,7 +549,7 @@ gtag('config', 'UA-195019416-1');
                             <img src="img/new_img_13.jpg" alt="種目別スポーツビジョン　重要度目安">
                         </p>
                         <p class="contact">
-                            <a href="https://www.kobetsu-review.com/inquiry/index.html" target="_blank">
+                            <a href="https://www.kobetsu-review.com/inquiry/index.php" target="_blank">
                                 <img src="img/sdk-skr_btn.png" alt="お問合せはこちら">
                             </a>
                         </p>
@@ -563,7 +563,7 @@ gtag('config', 'UA-195019416-1');
         <br />
         <br class="pc_only">
         <p>
-            <a href="koushu.html">
+            <a href="koushu.php">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/koushuu_bnr.jpg"><!--PC画像-->
                     <source media="(max-width: 768px)" srcset="img/koushuu_bnrSp.jpg"><!--SP画像-->
