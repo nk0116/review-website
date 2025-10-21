@@ -1,9 +1,7 @@
-# ディレクトリ一覧を無効化
-Options -Indexes
-
-# .html でアクセスされたら同名の .php を表示（内部振り分け）
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.+)\.html$ $1.php [L]
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}.php -f
+  RewriteRule ^(.*)\.html$ $1.php [L]
+</IfModule>
