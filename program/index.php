@@ -80,13 +80,13 @@
 
                     <section class="bg_0C3584 programTrialu programTrialu01">
                         <h2 class="t_center cl_fff fw_700 txtProgramTrialu">
-                            無料体験会随時申込み受付中！（1回90分）
+                            無料体験会随時申込み受付中！（1回70分）
                         </h2>
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
                                 ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@x.gmobb.jpまでご相談ください。<br><br class="sp_only">
-                                ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～19：00</p>
+                                ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 
                         <a class="d_block btmBtmTrialuDetail" href="https://codeadventure.jp/lp/sojaekimae/entry/" target="_balnk">
@@ -249,13 +249,13 @@
 
                     <section class="bg_00B3EE programTrialu programTrialu02">
                         <h2 class="t_center cl_fff fw_700 txtProgramTrialu">
-                            無料体験会随時申込み受付中！（1回90分）
+                            無料体験会随時申込み受付中！（1回70分）
                         </h2>
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
                                 ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@x.gmobb.jpまでご相談ください。<br><br class="sp_only">
-                                ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～19：00</p>
+                                ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 
                         <a class="d_block btmBtmTrialuDetail" href="https://codeadventure.jp/lp/sojaekimae/entry/" target="_balnk">
@@ -305,7 +305,7 @@
                             </section>
                         </div>
                         <p class="bg_E6E6E6 display_flex_center fw_600 cl_000 txtTitleProgramLastAppeal txtTitleProgramLastAppeal01">入会金0円！</p>
-                        <p class="bg_E6E6E6 display_flex_center fw_600 cl_000 txtTitleProgramLastAppeal txtTitleProgramLastAppeal02">授業料1,100円引き！<br class="sp_only">（期間限定2026年3月まで）</p>
+                        <p class="bg_E6E6E6 display_flex_center fw_600 cl_000 txtTitleProgramLastAppeal txtTitleProgramLastAppeal02">授業料1,100円引き！<br class="sp_only">（期間限定2026年8月まで）</p>
                         <a class="d_block btmLastAppeal" href="https://codeadventure.jp/lp/sojaekimae/entry/" target="_balnk">
                             <picture>
                                 <source media="(min-width: 768px)" srcset="img/btmBtmLastAppealPc.svg">
