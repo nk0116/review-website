@@ -50,48 +50,8 @@
   </head>
 
   <body>
-    <div id="header">
-      <h1>
-        <a href="../index.php"><img src="../images/header_logo.jpg" alt="学校成績保証の個別指導塾「レビュー」" width="439" height="75" /></a>
-      </h1>
+  <?php include '../config/header.php';?>
 
-      <p class="head_tel">
-        <a href="../index.php"><img src="../images/btn_top.jpg" alt="トップページ" width="95" height="21" class="top_btn" /></a>
-        <img src="../images/header_tel.jpg" alt="電話番号　0120-415-276" width="232" height="75" />
-      </p>
-    </div>
-
-    <div id="gnav_wrap">
-      <div id="gnav">
-        <ul>
-          <li>
-            <a href="../about/index.php"><img src="../images/gnav_about.jpg" alt="個別指導レビューについて" width="188" height="36" /></a>
-          </li>
-          <!--
--->
-          <li>
-            <a href="index.php"><img src="../images/gnav_course.jpg" alt="コースについて" width="190" height="36" /></a>
-          </li>
-          <!--
--->
-          <li>
-            <a href="../charge/index.php"><img src="../images/gnav_ryokin.jpg" alt="料金について" width="191" height="36" /></a>
-          </li>
-          <!--
--->
-          <li>
-            <a href="../access/index.php"><img src="../images/gnav_annai.jpg" alt="教室案内" width="190" height="36" /></a>
-          </li>
-          <!--
--->
-          <li>
-            <a href="../inquiry/index.php"><img src="../images/gnav_contact.jpg" alt="お問合せ" width="191" height="36" /></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <!--
--->
     <div id="wrap_main">
       <div id="main">
         <!--sidenav-->
