@@ -97,14 +97,14 @@
             <table width="680" border="1" cellspacing="0" cellpadding="5" class="hyou">
                 <tr>
                     <th width="45" rowspan="2"  scope="row">週回数</th>
-                    <!-- <td colspan="3" class="shou_t">小学部</td> -->
+                    <td colspan="3" class="shou_t">小学部</td>
                     <td colspan="2" class="chuu_t">中学部</td>
                     <td colspan="4" class="kou_t">高校部</td>
                 </tr>
                 <tr>
-                    <!-- <td width="70" class="shou_t">満点コース</td> -->
-                    <!-- <td width="70"  class="shou_t">小学1～6</td> -->
-                    <!-- <td width="70" class="shou_t">中学受験</td> -->
+                    <td width="70" class="shou_t">満点コース</td>
+                    <td width="70"  class="shou_t">小学1～6</td>
+                    <td width="70" class="shou_t">中学受験</td>
                     <td width="70" class="chuu_t">中1･2</td>
                     <td width="70" class="chuu_t">中３</td>
                     <td width="70" class="kou_t">高1･2</td>
@@ -116,9 +116,9 @@
                 </tr>
                 <tr>
                     <th width="45" scope="row">週1回</th>
-                    <!-- <td width="70">4,950円</td>
+                    <td width="70">4,950円</td>
                     <td width="70">7,150円</td>
-                    <td width="70">9,900円</td> -->
+                    <td width="70">9,900円</td>
                     <td width="70">8,800円</td>
                     <td width="70">9,900円</td>
                     <td width="70">11,000円</td>
@@ -132,9 +132,9 @@
                 </tr>
                 <tr>
                     <th width="45" scope="row">週2回</th>
-                    <!-- <td width="70">9,900円</td>
+                    <td width="70">9,900円</td>
                     <td width="70">14,300円</td>
-                    <td width="70">19,250円</td> -->
+                    <td width="70">19,250円</td>
                     <td width="70">17,050円</td>
                     <td width="70">19,250円</td>
                     <td width="70">21,450円</td>
@@ -143,9 +143,9 @@
                 </tr>
                 <tr>
                     <th width="45" scope="row">週3回</th>
-                    <!-- <td width="70">14,850円</td>
+                    <td width="70">14,850円</td>
                     <td width="70">21,450円</td>
-                    <td width="70">28,050円</td> -->
+                    <td width="70">28,050円</td>
                     <td width="70">24,750円</td>
                     <td width="70">28,050円</td>
                     <td width="70">31,350円</td>
@@ -157,9 +157,9 @@
                         週4回<br />
                         <font size="-3">※中学生は5教科セット</font>
                     </th>
-                    <!-- <td width="70">ー</td>
                     <td width="70">ー</td>
-                    <td width="70">30,800円</td> -->
+                    <td width="70">ー</td>
+                    <td width="70">30,800円</td>
                     <td width="70">27,500円</td>
                     <td width="70">30,800円</td>
                     <td width="70">40,150円</td>
@@ -178,7 +178,8 @@
         <hr>
         <br />
 
-        <!-- <h4>速読解・思考力・新国語コース：月額授業料(税込)</h4>
+        <!-- 消す？ -->
+        <h4>速読解・思考力・新国語コース：月額授業料(税込)</h4>
         <br />
         <div class="overflowscroll">
             <div width="680" border="1" cellspacing="0" cellpadding="5" class="hyouFigWap">
@@ -188,7 +189,7 @@
        
         <ul>
             <li>※オプションは、通常個別授業受講者（内部生）のみ受講できます。</li>
-        </ul>	 -->
+        </ul>	
 
         <br />
         <br class="pc_only">
