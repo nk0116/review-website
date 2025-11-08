@@ -3,5 +3,5 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME}.php -f
-  RewriteRule ^(.*)\.html$ $1.php [L]
+  RewriteRule ^(.*)\.html$ /$1.php [R=301,L]
 </IfModule>

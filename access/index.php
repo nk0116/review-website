@@ -64,9 +64,47 @@
             TEL：0866-95-2100
         </p>
         <br />
-        <!--
-        <div id="map" style="width: 680px; height: 300px"></div>
-        <br />-->
+        
+
+        <hr />
+        <br />
+        <h3 class="access_section_title">開校時間</h3>
+        <p>
+            平日‥‥ 14:00～22:00<br />
+            <br />
+            土曜日 ‥13:30～18:00<br />
+            ※テスト前は19:10まで<br />
+            日曜日‥定休日<br />
+            <br />
+            ※テスト直前は無料勉強会あり
+        </p>
+        <br />
+        
+        <hr />
+        <br />
+        <h3 class="access_section_title">通塾学校</h3>
+        <p>
+            <strong>★小学校★</strong><br />
+            総社中央・総社北・総社・常盤・山手・清音・神在・川辺<br />
+            <br />
+            <strong>★中学校★</strong><br />
+            五つ星・総社・総社西・総社東・真備東・高松・足守・大安寺・倉敷北・倉敷南・就実・金光<br />
+            <br />
+            <strong>★高校★</strong><br />
+            総社・総社南・高梁・倉敷青陵・倉敷南・倉敷商業・倉敷中央・倉敷工業・高松農業・倉敷・金光学園・清心女子・明誠学園・就実
+        </p>
+        <br />
+        
+        <hr />
+        <br />
+        <h3>アクセス</h3>
+        <p>
+            総社駅東口　徒歩4分
+        </p>
+        <br />
+        
+        
+
           <picture>
             <source media="(min-width: 768px)" srcset="images/map.jpg"><!--PC画像-->
             <source media="(max-width: 768px)" srcset="images/mapSp.jpg"><!--SP画像-->

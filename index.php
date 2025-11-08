@@ -35,12 +35,12 @@
         <div id="topimg" class="">
           <br />
           <picture>
-            <source media="(min-width: 768px)" srcset="images/2017topimg.jpg" />
+            <source media="(min-width: 768px)" srcset="images/2025topimg.jpg" />
             <!--PC画像-->
-            <source media="(max-width: 768px)" srcset="images/2017topimgSp.jpg" />
+            <source media="(max-width: 768px)" srcset="images/2025topimgSp.jpg" />
             <!--SP画像-->
             <img
-              src="images/2017topimg.jpg"
+              src="images/2025topimg.jpg"
               alt="新規開校！新規入学生募集！「分からない、できない」は大歓迎です！個別指導レビューは大手個別指導塾で長年培ってきた経験と実績から生まれた個別指導システムです。"
               width="950"
               height="391"
