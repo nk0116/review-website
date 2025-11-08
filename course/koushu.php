@@ -25,6 +25,7 @@
     </script>
 
     <meta name="google-site-verification" content="oPjcYR5ZnD0D5WGD100vGzDWgBDJOOzCzRsG3VQ1nik" />
+    <meta name="robots" content="noindex, nofollow" />
     <!-- InstanceBeginEditable name="head" -->
     <style type="text/css">
       .junbi {
