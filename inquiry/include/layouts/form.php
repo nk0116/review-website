@@ -40,10 +40,10 @@ $_SESSION['csrf_token'] = sha1(session_id());
             <th><img src="images/mfp_must.gif" width="30" height="16" alt="必須" class="must" />ご住所</th>
             <td>
                 <ol>
-                    <li>
+                    <li class="prefecture-item">
                         <span>都道府県</span>
                         <select name="prefectures" id="mfp_el07" class="mfp" required>
-                            <option value="" selected="selected">【選択して下さい】</option>
+                            <option value="">【選択して下さい】</option>
                             <option value="北海道" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="北海道"){ echo 'selected'; } ?>>北海道</option>
                             <option value="青森県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="青森県"){ echo 'selected'; } ?>>青森県</option>
                             <option value="岩手県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="岩手県"){ echo 'selected'; } ?>>岩手県</option>
@@ -76,7 +76,7 @@ $_SESSION['csrf_token'] = sha1(session_id());
                             <option value="和歌山県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="和歌山県"){ echo 'selected'; } ?>>和歌山県</option>
                             <option value="鳥取県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="鳥取県"){ echo 'selected'; } ?>>鳥取県</option>
                             <option value="島根県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="島根県"){ echo 'selected'; } ?>>島根県</option>
-                            <option value="岡山県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="岡山県"){ echo 'selected'; } ?>>岡山県</option>
+                            <option value="岡山県" <?php if(empty($postdatas->PostData['prefectures']) || (!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="岡山県")){ echo 'selected'; } ?>>岡山県</option>
                             <option value="広島県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="広島県"){ echo 'selected'; } ?>>広島県</option>
                             <option value="山口県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="山口県"){ echo 'selected'; } ?>>山口県</option>
                             <option value="徳島県" <?php if(!empty($postdatas->PostData['prefectures']) and $postdatas->PostData['prefectures']==="徳島県"){ echo 'selected'; } ?>>徳島県</option>
