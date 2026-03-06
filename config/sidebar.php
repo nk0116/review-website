@@ -77,7 +77,7 @@
                             <img src="<?php echo $siteUrl; ?>images/side_tel.jpg" alt="TEL0866-95-2100" width="187" height="31" />
                         </picture>
                     </div>
-                    <strong>Email：</strong><a href="mailto:review@x.gmobb.jp">review@x.gmobb.jp</a>
+                    <strong>Email：</strong><a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
                 </div>
             </div>
             <br />

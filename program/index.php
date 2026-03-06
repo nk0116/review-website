@@ -85,7 +85,7 @@
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
-                                ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@x.gmobb.jpまでご相談ください。<br><br class="sp_only">
+                                ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@kir.biglobe.ne.jpまでご相談ください。<br><br class="sp_only">
                                 ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 
@@ -254,7 +254,7 @@
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
-                                ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@x.gmobb.jpまでご相談ください。<br><br class="sp_only">
+                                ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：0866-95-2100 または<br class="sp_only">e-mail : review@kir.biglobe.ne.jpまでご相談ください。<br><br class="sp_only">
                                 ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 

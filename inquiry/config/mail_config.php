@@ -220,10 +220,10 @@ class sendmailcl extends FormSettings {
 
     private function send_mail_config_setting() {
         $this->MailUserTitle = 'お問い合わせありがとうございました';//【要変更】ユーザー宛メールの題名
-        $this->MailUserHeader = "From:review@x.gmobb.jp";//【要変更】ユーザー宛メール差出人（差出人名・メールアドレス設定）
+        $this->MailUserHeader = "From:review@kir.biglobe.ne.jp";//【要変更】ユーザー宛メール差出人（差出人名・メールアドレス設定）
 
         $this->MailAddminTitle = $this->PostData['name'].'様よりお問い合わせ賜りました';//【要変更】管理者宛メールの題名
-        $this->MailAddminAddress = array('review@x.gmobb.jp','ds-maildebug@sunpla.com');//【要変更】管理人用送り先メールアドレス
+        $this->MailAddminAddress = array('review@kir.biglobe.ne.jp','ds-maildebug@sunpla.com');//【要変更】管理人用送り先メールアドレス
         $this->UserMailBody_settings();
         $this->AddminMailBody_settings();
 
@@ -352,7 +352,7 @@ class sendmailcl extends FormSettings {
             $admailer->Username='info@kobetsu-review.com';
             $admailer->Password='A8NFQbHTW4gsAu';
 
-            $admailer->setFrom('review@x.gmobb.jp', mb_encode_mimeheader($sendName));
+            $admailer->setFrom('review@kir.biglobe.ne.jp', mb_encode_mimeheader($sendName));
             $admailer->Subject  = mb_convert_encoding($this->MailAddminTitle,"UTF-8","AUTO");//件名の設定
             $admailer->Body     = mb_convert_encoding($this->AddminMailBody,"UTF-8","AUTO");//メッセージ本体
             $admailer->AddAddress($val);

@@ -90,7 +90,7 @@
                 <img src="../images/side_tel.jpg" alt="TEL0866-95-2100" width="187" height="31" />
                 <br />
                 <strong>Email :</strong>
-                <a href="mailto:review@x.gmobb.jp">review@x.gmobb.jp</a>
+                <a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
               </div>
             </div>
             <br />
@@ -155,7 +155,7 @@
           Tel：0866-95-2100
           <br />
           Email：
-          <a href="mailto:review@x.gmobb.jp">review@x.gmobb.jp</a>
+          <a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
           <br />
           住所：
           <span class="kakushu_add">岡山県総社市駅前2-2-10新世紀観光ビル２F</span>

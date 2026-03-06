@@ -40,7 +40,7 @@
             <p class="name_corre">
                 個別指導レビュー 総社駅前校</p>
             Tel：0866-95-2100<br />
-            Email：<a href="mailto:review@x.gmobb.jp">review@x.gmobb.jp</a>
+            Email：<a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
             <br />
             住所：<span class="kakushu_add">岡山県総社市駅前2-2-10新世紀観光ビル２F </span><br />
             入塾･無料体験授業の受付時間　14:00～21:00

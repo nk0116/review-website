@@ -17,7 +17,7 @@ $config{"sendmail"} = '/usr/lib/sendmail';
 
 ##フォームからの送信先 設定したほうの先頭の#を削除してください
 # ひとつの場合
-@mailto = ('review@x.gmobb.jp');
+@mailto = ('review@kir.biglobe.ne.jp');
 # 複数の場合 (シングルクォートでくくったメールアドレスをカンマで区切って指定)
 #@mailto = ('xxxxx@example.jp','yyyyy@example.jp');
 
@@ -91,7 +91,7 @@ $config{"posted_body"} = <<'__posted_body__';
 〒 719-1136
 岡山県総社市駅前2-2-10 新世紀観光ビル2F
 電話：0866-95-2100
-Email:review@x.gmobb.jp
+Email:review@kir.biglobe.ne.jp
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 __posted_body__
@@ -123,7 +123,7 @@ $config{"return_body"} = <<'__return_body__';
 〒 719-1136
 岡山県総社市駅前2-2-10 新世紀観光ビル2F
 電話：0866-95-2100
-Email:review@x.gmobb.jp
+Email:review@kir.biglobe.ne.jp
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 __return_body__
