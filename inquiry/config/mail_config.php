@@ -242,8 +242,10 @@ class sendmailcl extends FormSettings {
         $this->UserMailBody .= "個別指導レビュー 総社駅前校".PHP_EOL;
         $this->UserMailBody .= "〒719-1136".PHP_EOL;
         $this->UserMailBody .= "岡山県総社市駅前2-2-10新世紀観光ビル2F".PHP_EOL;
+        $this->UserMailBody .= "お申し込み・お問合せはお気軽にどうぞ".PHP_EOL;
         $this->UserMailBody .= "TEL：050-1793-5421".PHP_EOL;
-        $this->UserMailBody .= "※24時間対応しておりますので、いつでもお気軽にご連絡ください。".PHP_EOL;
+        $this->UserMailBody .= "※24時間対応しておりますので、".PHP_EOL;
+        $this->UserMailBody .= "　いつでもお気軽にご連絡ください。".PHP_EOL;
         $this->UserMailBody .= PHP_EOL;
         $this->UserMailBody .= "オフィシャルサイト".PHP_EOL;
         $this->UserMailBody .= "https://www.kobetsu-review.com/".PHP_EOL;

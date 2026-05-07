@@ -178,6 +178,8 @@ html {
   width: 950px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 #header h1 img {

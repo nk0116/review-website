@@ -3225,3 +3225,100 @@ and open the template in the editor.
   .txtTitleTelProgramAppealNote {
     font-size: 3.2vw;
     line-height: 1.45; } }
+
+/* ============================================================
+ * 電話番号エリアの「お申し込み・お問合せはお気軽にどうぞ」案内文
+ * 各電話番号の上部に表示
+ * ============================================================ */
+
+/* PCヘッダー上文 */
+.head_tel__lead {
+  display: block;
+  font-size: 11px;
+  color: #555;
+  text-align: right;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  white-space: nowrap; }
+
+/* SPヘッダー上文 */
+.head_telSp__lead {
+  display: block;
+  font-size: 9px;
+  color: #555;
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  margin-bottom: 1px;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere; }
+@media screen and (max-width: 374px) {
+  .head_telSp__lead {
+    font-size: 8px; } }
+
+/* サイドバー上文 */
+.side_tel__lead {
+  display: block;
+  font-size: 11px;
+  color: #555;
+  text-align: center;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+  margin-top: 4px;
+  margin-bottom: 2px;
+  white-space: normal; }
+@media screen and (max-width: 768px) {
+  .side_tel__lead {
+    font-size: 12px; } }
+
+/* フッター上文 */
+.footer_tel-lead {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  letter-spacing: 0.01em;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  line-height: 1.3; }
+@media screen and (max-width: 768px) {
+  .footer_tel-lead {
+    font-size: 12px; } }
+
+/* program ページ CTA：白色の上文 */
+.txtTitleTelProgramAppealLead {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 4px;
+  line-height: 1.4; }
+@media screen and (min-width: 1100px) {
+  .txtTitleTelProgramAppealLead {
+    font-size: 13px; } }
+@media print, screen and (max-width: 1099px) {
+  .txtTitleTelProgramAppealLead {
+    font-size: 1.18vw; } }
+@media screen and (max-width: 768px) {
+  .txtTitleTelProgramAppealLead {
+    font-size: 3vw;
+    line-height: 1.45; } }
+
+/* ============================================================
+ * 注記2行化に伴うレイアウト調整
+ * ============================================================ */
+
+/* PCヘッダー：上文(11px)+番号(26px)+注記2行(22-26px) ≒ 70-80px。
+   既存ヘッダーは余裕がある想定だが、注記が2行になるので line-height だけは余裕を見ておく */
+.head_tel__note {
+  white-space: normal !important; }
+
+/* PCヘッダーの head_tel__group に min-height を確保しないと
+   隣のロゴと縦バランスがずれる場合があるため、line-height で吸収 */
+
+/* フッター：上文1行+Tel1行+注記2行で行数が増えるため min-height を増やす */
+@media screen and (min-width: 769px) {
+  #wrap_footer {
+    min-height: 200px; } }

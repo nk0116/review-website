@@ -71,8 +71,9 @@
                     14:00～21:00
                     <br />
                     <div class="name_corre_bottom side_tel">
+                        <p class="side_tel__lead">お申し込み・お問合せはお気軽にどうぞ</p>
                         <a class="side_tel__num" href="tel:05017935421">Tel.&nbsp;050-1793-5421</a>
-                        <p class="side_tel__note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</p>
+                        <p class="side_tel__note">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</p>
                     </div>
                     <strong>Email：</strong><a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
                 </div>

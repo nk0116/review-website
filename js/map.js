@@ -27,7 +27,7 @@ map.addOverlay(marker1);
 
 //吹き出しにリンクを貼る
 GEvent.addListener(marker1, "click", function()
-{marker1.openInfoWindowHtml("個別指導レビュー<br>〒719-1136 岡山県総社市駅前2-2-10新世紀観光ビル2F<br>tel.050-1793-5421（24時間対応）");});
+{marker1.openInfoWindowHtml('<div class="info">個別指導レビュー 総社駅前校<br>住所：岡山県総社市駅前2-2-10新世紀観光ビル2F<br>お申し込み・お問合せはお気軽にどうぞ<br>tel.050-1793-5421<br>※24時間対応しておりますので、<br>　いつでもお気軽にご連絡ください。</div>');});
 　　}
 }
 //]]>

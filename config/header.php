@@ -42,8 +42,9 @@
                 <a href="../index.php"><img src="../images/btn_top.jpg" alt="トップページ" width="95" height="21" class="top_btn"></a>
                 <?php endif; ?>
                 <span class="head_tel__group">
+                    <span class="head_tel__lead">お申し込み・お問合せはお気軽にどうぞ</span>
                     <a class="head_tel__num" href="tel:05017935421">Tel.&nbsp;050-1793-5421</a>
-                    <span class="head_tel__note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span>
+                    <span class="head_tel__note">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</span>
                 </span>
             </p>
         </div>
@@ -75,8 +76,9 @@
 	                <?php endif; ?>
 	            </h1>
                 <p class="head_telSp">
+                    <span class="head_telSp__lead">お申し込み・お問合せはお気軽にどうぞ</span>
                     <a class="head_telSp__num" href="tel:05017935421">Tel.&nbsp;050-1793-5421</a>
-                    <span class="head_telSp__note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span>
+                    <span class="head_telSp__note">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</span>
                 </p>
                 <div id="menubBtn" class="menubBtn off">
                     <img class="off" src="<?php echo $siteUrl; ?>images/menubBtn.svg" alt="メニューボタン" width="44" height="44" />

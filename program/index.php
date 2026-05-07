@@ -85,8 +85,9 @@
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
+                                ・お申し込み・お問合せはお気軽にどうぞ<br>
                                 ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：050-1793-5421<br class="sp_only"> または<br class="sp_only">e-mail : review@kir.biglobe.ne.jpまでご相談ください。<br>
-                                <span class="tel-note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span><br><br class="sp_only">
+                                <span class="tel-note">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</span><br><br class="sp_only">
                                 ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 
@@ -255,8 +256,9 @@
 
                         <section class="bg_fff programTrialuDetail programTrialuDetail01">
                             <p class="cl_000 fw_500 txtProgramTrialuDetail">
+                                ・お申し込み・お問合せはお気軽にどうぞ<br>
                                 ・体験会をご希望の方は、お気軽に<br class="sp_only">お電話：050-1793-5421<br class="sp_only"> または<br class="sp_only">e-mail : review@kir.biglobe.ne.jpまでご相談ください。<br>
-                                <span class="tel-note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span><br><br class="sp_only">
+                                <span class="tel-note">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</span><br><br class="sp_only">
                                 ※お電話の場合　<br class="sp_only">平日14：30～21：30　<br class="sp_only">土曜日13：30～18：00</p>
                         </section>
 
@@ -323,9 +325,10 @@
                         <div class="bg_0C3584 cl_fff display_flex_center titleTelProgramAppeal">
                             <section class="cl_fff secTitleTelProgramAppeal">
                                 <h3 class="t_center cl_fff fw_600 h3TitleTelProgramAppeal">お電話での受付ご案内</h3>
+                                <p class="t_center cl_fff txtTitleTelProgramAppealLead">お申し込み・お問合せはお気軽にどうぞ</p>
                                 <p class="t_center cl_fff fw_600 pc_only txtTitleTelProgramAppeal">TEL:050-1793-5421</p>
                                 <p class="t_center cl_fff fw_600 sp_only txtTitleTelProgramAppeal"><a href="tel:05017935421">TEL:050-1793-5421</a></p>
-                                <p class="t_center cl_fff txtTitleTelProgramAppealNote">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</p>
+                                <p class="t_center cl_fff txtTitleTelProgramAppealNote">※24時間対応しておりますので、<br>いつでもお気軽にご連絡ください。</p>
                             </section>
                         </div>
 
