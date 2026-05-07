@@ -21,3 +21,5 @@ _archive/       # 自分で一時退避したフォルダ
 # --- OS依存の不要ファイル ---
 .DS_Store       # macOS Finder
 Thumbs.db       # Windows サムネイルキャッシュ
+# デプロイスクリプト（SSH情報含むため非公開）
+deploy.sh

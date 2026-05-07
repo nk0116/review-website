@@ -39,7 +39,8 @@
         <div class="footer_light">
             <p class="name_corre">
                 個別指導レビュー 総社駅前校</p>
-            Tel：0866-95-2100<br />
+            Tel：050-1793-5421<br />
+            <span class="tel-note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span><br />
             Email：<a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
             <br />
             住所：<span class="kakushu_add">岡山県総社市駅前2-2-10新世紀観光ビル２F </span><br />

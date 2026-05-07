@@ -313,15 +313,10 @@ html {
 .headerSpwaph1 {
   width: 25.91%; }
 
+/* .head_telSp の旧（画像前提）定義は撤去。画像撤去後は flex 子としてテキストベース表示。
+   実体定義は下部の Tel表示用スタイル（テキスト統一）ブロック側で flex:1 1 auto で展開。 */
 .head_telSp {
-  width: 44.5%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 95px;
-  margin-right: 0px; }
-  @media print, screen and (max-width: 1099px) {
-    .head_telSp {
-      margin: 0% 0% 0% 26.76%; } }
+  margin: 0; }
 
 .menubBtn {
   margin-top: 0px;
@@ -3033,3 +3028,200 @@ and open the template in the editor.
       margin-bottom: 0%;
       margin-left: auto;
       margin-right: auto; } }
+
+/* ============================================================
+ * Tel表示用スタイル（050-1793-5421 単体表示用）
+ * 画像参照を撤去し、テキストのみで表示。
+ * ヘッダー・サイドバー・フッター等で利用
+ * ============================================================ */
+
+/* --- PCヘッダー：画像なし、テキストのみで右寄せ表示 --- */
+#header .head_tel {
+  align-items: center;
+  gap: 10px; }
+.head_tel__group {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 1.2;
+  font-family: Arial, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif; }
+.head_tel__num {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 900;
+  color: #ff3300;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  line-height: 1.1; }
+.head_tel__num:hover {
+  color: #ff3300;
+  text-decoration: none;
+  opacity: 0.8; }
+.head_tel__note {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #444;
+  letter-spacing: 0.02em;
+  margin-top: 4px;
+  line-height: 1.2;
+  white-space: nowrap; }
+
+/* --- SPヘッダー：画像なし、テキストのみで縦並び --- */
+/* .headerSpwap は flex で 3要素 [h1, head_telSp, menubBtn] を space-between で配置。
+   ハンバーガー(44px固定) が画面外に押し出されないよう、各子に明示的な flex 値を与える。 */
+.headerSpwap {
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 4px !important; }
+/* h1（ロゴ） — 画面の最大 38% まで */
+.headerSpwap > .headerSpwaph1 {
+  flex: 0 1 auto;
+  max-width: 38%; }
+/* .head_telSp は中央要素。テキストベースなので幅は内容に追従、ハンバーガーが確実に収まるよう max-width を絞る */
+.head_telSp {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto !important;
+  width: auto !important;
+  max-width: none !important;
+  margin: 0 4px !important;
+  line-height: 1.2;
+  font-family: Arial, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif; }
+/* ハンバーガーは縮まない／伸びない 44px 固定 */
+.headerSpwap > .menubBtn {
+  flex: 0 0 44px !important;
+  width: 44px !important;
+  margin: 0 !important; }
+.head_telSp__num {
+  display: block;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ff3300;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: Arial, sans-serif;
+  line-height: 1.1; }
+.head_telSp__num:hover {
+  color: #ff3300;
+  text-decoration: none;
+  opacity: 0.8; }
+.head_telSp__note {
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  color: #555;
+  letter-spacing: 0.01em;
+  margin-top: 2px;
+  line-height: 1.3;
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  text-align: center; }
+@media screen and (max-width: 374px) {
+  .head_telSp__num {
+    font-size: 13px; }
+  .head_telSp__note {
+    font-size: 9px;
+    line-height: 1.3; } }
+
+/* --- サイドバー：テキストベースで横幅にフィット --- */
+.side_tel {
+  width: 100%;
+  white-space: normal; }
+.side_tel__num {
+  display: block;
+  font-size: 22px;
+  font-weight: 900;
+  color: #ff3300;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Arial, 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  line-height: 1.1;
+  margin-top: 4px; }
+.side_tel__num:hover {
+  color: #ff3300;
+  text-decoration: none;
+  opacity: 0.8; }
+.side_tel__note {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  color: #444;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 0;
+  line-height: 1.4;
+  white-space: normal !important;
+  word-break: break-word;
+  overflow-wrap: anywhere; }
+@media screen and (max-width: 768px) {
+  .side_tel__num {
+    font-size: 24px; }
+  .side_tel__note {
+    font-size: 12px; } }
+
+/* --- 共通：本文中のTel注記文（footer / access / privacy / koushu / program） --- */
+.tel-note {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+  letter-spacing: 0.01em;
+  line-height: 1.4; }
+@media screen and (max-width: 768px) {
+  .tel-note {
+    font-size: 11px; } }
+
+/* --- フッター高さ調整：Tel + 注記行で wrap_copy と重ならないように --- */
+@media screen and (min-width: 769px) {
+  /* clearfix：footer_light(float:right) / footer_logo(float:left) を含めた高さを #footer が認識 */
+  #wrap_footer #footer::after {
+    content: "";
+    display: table;
+    clear: both; }
+  #wrap_footer {
+    height: auto;
+    min-height: 160px;
+    padding-top: 4px;
+    padding-bottom: 16px; }
+  #footer .footer_light {
+    line-height: 1.6; } }
+
+/* --- programページCTA：Telが1行＋注記文1行になるので aspect-ratio を解除 --- */
+.titleTelProgramAppeal {
+  aspect-ratio: auto !important;
+  padding-top: 12px;
+  padding-bottom: 12px; }
+@media screen and (max-width: 768px) {
+  .titleTelProgramAppeal {
+    aspect-ratio: auto !important;
+    padding-top: 10px;
+    padding-bottom: 10px; } }
+.txtTitleTelProgramAppealNote {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  margin-top: 6px;
+  margin-bottom: 0;
+  line-height: 1.4; }
+@media screen and (min-width: 1100px) {
+  .txtTitleTelProgramAppealNote {
+    font-size: 14px; } }
+@media print, screen and (max-width: 1099px) {
+  .txtTitleTelProgramAppealNote {
+    font-size: 1.27vw; } }
+@media screen and (max-width: 768px) {
+  .txtTitleTelProgramAppealNote {
+    font-size: 3.2vw;
+    line-height: 1.45; } }

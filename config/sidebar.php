@@ -70,12 +70,9 @@
                     入塾･無料体験授業の受付時間：<br />
                     14:00～21:00
                     <br />
-                    <div class="name_corre_bottom">
-                         <picture>
-                            <source media="(min-width: 768px)" srcset="<?php echo $siteUrl; ?>images/side_tel.jpg"><!--PC画像-->
-                            <source media="(max-width: 768px)" srcset="<?php echo $siteUrl; ?>images/side_telSp.png"><!--SP画像-->
-                            <img src="<?php echo $siteUrl; ?>images/side_tel.jpg" alt="TEL0866-95-2100" width="187" height="31" />
-                        </picture>
+                    <div class="name_corre_bottom side_tel">
+                        <a class="side_tel__num" href="tel:05017935421">Tel.&nbsp;050-1793-5421</a>
+                        <p class="side_tel__note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</p>
                     </div>
                     <strong>Email：</strong><a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
                 </div>

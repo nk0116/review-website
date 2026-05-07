@@ -87,8 +87,10 @@
                 14:00～21:00
                 <br />
 
-                <img src="../images/side_tel.jpg" alt="TEL0866-95-2100" width="187" height="31" />
-                <br />
+                <div class="name_corre_bottom side_tel">
+                    <a class="side_tel__num" href="tel:05017935421">Tel.&nbsp;050-1793-5421</a>
+                    <p class="side_tel__note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</p>
+                </div>
                 <strong>Email :</strong>
                 <a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
               </div>
@@ -152,7 +154,9 @@
         <div class="footer_logo"><img src="../images/footer_logo.jpg" width="200" height="54" /></div>
         <div class="footer_light">
           <p class="name_corre">個別指導レビュー 総社駅前校</p>
-          Tel：0866-95-2100
+          Tel：050-1793-5421
+          <br />
+          <span class="tel-note">※24時間対応しておりますので、いつでもお気軽にご連絡ください。</span>
           <br />
           Email：
           <a href="mailto:review@kir.biglobe.ne.jp">review@kir.biglobe.ne.jp</a>
