@@ -306,8 +306,7 @@ gtag('config', 'UA-195019416-1');
                     </p>
                     <br />
                     <p>
-                        <img src="img/sdk-skr_01.jpg" width="650" />
-                        <img src="img/sdk-skr_02.jpg" width="650" />
+                        <img src="img/sdk-skr.jpg" width="650" alt="速読解力講座" />
                     </p>
                     <p style="text-align:center;" >
                         <video poster="img/sdk-skr-sm.jpg" controls src="../mp4/about-sdk-skr.mp4" width="600px"></video><br /><br />
