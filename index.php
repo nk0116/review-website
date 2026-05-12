@@ -35,15 +35,15 @@
         <div id="topimg" class="">
           <br />
           <picture>
-            <source media="(min-width: 768px)" srcset="images/2025topimg.jpg" />
+            <source media="(min-width: 768px)" srcset="images/2026topimg.jpg" />
             <!--PC画像-->
-            <source media="(max-width: 768px)" srcset="images/2025topimgSp.jpg" />
+            <source media="(max-width: 768px)" srcset="images/2026topimgSp.jpg" />
             <!--SP画像-->
             <img
-              src="images/2025topimg.jpg"
-              alt="新規開校！新規入学生募集！「分からない、できない」は大歓迎です！個別指導レビューは大手個別指導塾で長年培ってきた経験と実績から生まれた個別指導システムです。"
+              src="images/2026topimg.jpg"
+              alt="速読解力講座 - 速く正確に読み解く力を鍛えるトレーニング"
               width="950"
-              height="391"
+              height="671"
             />
           </picture>
         </div>
